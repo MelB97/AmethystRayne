@@ -208,7 +208,7 @@ dialog::backdrop{background:rgba(12,8,15,.78)}
       <p id="lbDesc"></p>
       <div class="thumbs" id="lbThumbs"></div>
       <a class="btn btn-buy" id="lbBuy" href="#" target="_blank" rel="noopener" style="align-self:flex-start">Buy now</a>
-      <div class="howto">Tapping Buy now copies your order message. Paste it into Messenger when our Facebook page opens.</div>
+      <div class="howto">Buy now opens Messenger with your order already typed in. Just press send.</div>
     </div>
   </div>
 </dialog>
@@ -226,18 +226,21 @@ dialog::backdrop{background:rgba(12,8,15,.78)}
   const items=data.items.map((it,i)=>({...it,i,cat:cats[it.category]||{name:'Other',collection:'',availability:''}}));
   let adultsOpen=false; try{adultsOpen=sessionStorage.getItem('ar18')==='1'}catch(e){}
 
+  const orderText=it=>`Hi! I'd like to order: ${it.name} (${it.price}) from the Amethyst Rayne catalogue.`;
+  const CUSTOM="Hi! I'd love to ask about a custom order.";
+  const msgLink=t=>MSG+(MSG.includes('?')?'&':'?')+'text='+encodeURIComponent(t);
   document.querySelectorAll('.js-fb').forEach(a=>a.href=FB);
-  document.querySelectorAll('.js-msg').forEach(a=>{a.href=MSG;a.addEventListener('click',()=>copyMsg(a.dataset.msg||"Hi! I'd like to place an order from your catalogue."))});
+  document.querySelectorAll('.js-msg').forEach(a=>{a.href=msgLink(a.dataset.msg||"Hi! I'd like to place an order from your catalogue.");a.addEventListener('click',()=>copyMsg(a.dataset.msg||"Hi! I'd like to place an order from your catalogue."))});
 
   const priced=items.filter(i=>i.photos&&i.photos.length).length;
   $('#ledger').innerHTML=`<span><b>${items.length}</b> pieces</span><span><b>${data.collections.length}</b> collections</span><span><b>${data.categories.length}</b> shelves</span><span>Made to order in your colours</span>`;
 
   function toast(t){const el=$('#toast');el.textContent=t;el.classList.add('show');clearTimeout(toast.t);toast.t=setTimeout(()=>el.classList.remove('show'),4200)}
   function copyMsg(text){
-    try{ navigator.clipboard.writeText(text).then(()=>toast('Order message copied. Paste it into Messenger.'),()=>toast('Opening Facebook. Send us the name of the piece you want.')); }
+    try{ navigator.clipboard.writeText(text).then(()=>toast('Opening Messenger. If your message isn\'t filled in, just paste it.'),()=>toast('Opening Facebook. Send us the name of the piece you want.')); }
     catch(e){ toast('Opening Facebook. Send us the name of the piece you want.'); }
   }
-  const orderText=it=>`Hi! I'd like to order: ${it.name} (${it.price}) from the Amethyst Rayne catalogue.`;
+  
 
   function card(it){
     const p=it.photos||[];
@@ -245,7 +248,7 @@ dialog::backdrop{background:rgba(12,8,15,.78)}
     const ph=p.length?`<button class="ph" data-open="${it.i}" aria-label="View photos of ${esc(it.name)}"><img src="${esc(p[0])}" alt="${esc(it.name)}" loading="lazy" decoding="async">${flag}${p.length>1?`<span class="count">${p.length} photos</span>`:''}</button>`
                     :`<div class="ph soon" aria-hidden="true">Photo<br>coming soon</div>`;
     const lore=it.cat.collection==='scare-gang'&&it.description?`<p class="lore">${esc(it.description)}</p>`:'';
-    return `<article class="card" data-search="${esc((it.name+' '+it.cat.name+' '+(it.description||'')).toLowerCase())}">${ph}<div class="card-body"><h4>${esc(it.name)}</h4><div class="price">${esc(it.price)}</div>${lore}<span class="spacer"></span><a class="btn btn-buy" href="${esc(MSG)}" target="_blank" rel="noopener" data-buy="${it.i}">Buy now</a></div></article>`;
+    return `<article class="card" data-search="${esc((it.name+' '+it.cat.name+' '+(it.description||'')).toLowerCase())}">${ph}<div class="card-body"><h4>${esc(it.name)}</h4><div class="price">${esc(it.price)}</div>${lore}<span class="spacer"></span><a class="btn btn-buy" href="${esc(msgLink(orderText(it)))}" target="_blank" rel="noopener" data-buy="${it.i}">Buy now</a></div></article>`;
   }
 
   function render(){
@@ -266,7 +269,7 @@ dialog::backdrop{background:rgba(12,8,15,.78)}
     const g=data.custom_gallery||[];
     html+=`<section class="chapter" id="custom" data-col><div class="chapter-head"><div><div class="chapter-count">Past commissions</div><h2>Special Orders</h2></div><p>Whisper your request and we'll see what magic can be worked. These pieces were made especially for people who didn't mind waiting for something truly theirs.</p></div>
       <div class="gallery">${g.map((x,k)=>`<button data-gal="${k}" aria-label="View custom piece ${k+1}"><img src="${esc(x.photo)}" alt="${esc(x.caption||'Custom made piece')}" loading="lazy" decoding="async"></button>`).join('')}</div>
-      <p style="text-align:center;margin-top:18px"><a class="btn btn-buy" href="${esc(MSG)}" target="_blank" rel="noopener" data-custom>Enquire about a custom order</a></p></section>`;
+      <p style="text-align:center;margin-top:18px"><a class="btn btn-buy" href="${esc(msgLink(CUSTOM))}" target="_blank" rel="noopener" data-custom>Enquire about a custom order</a></p></section>`;
     $('#catalogue').innerHTML=html;
     const chipCols=[...data.collections.filter(c=>items.some(i=>i.cat.collection===c.id)),{id:'custom',name:'Special Orders'}];
     $('#chips').innerHTML=chipCols.map(c=>`<a class="chip" href="#${esc(c.id)}">${esc(c.name)}</a>`).join('');
@@ -304,11 +307,11 @@ dialog::backdrop{background:rgba(12,8,15,.78)}
   function openItem(it){cur=it;photos=it.photos;$('#lbCat').textContent=it.cat.name;$('#lbName').textContent=it.name;$('#lbPrice').textContent=it.price;
     $('#lbAvail').textContent=it.sold_out?'Sold out':(it.availability||it.cat.availability||'');$('#lbAvail').hidden=!$('#lbAvail').textContent;
     $('#lbDesc').textContent=it.description||'';$('#lbDesc').hidden=!it.description;
-    $('#lbBuy').textContent='Buy now';$('#lbBuy').href=MSG;$('#lbBuy').onclick=()=>copyMsg(orderText(it));thumbs();show(0);dlg.showModal()}
+    $('#lbBuy').textContent='Buy now';$('#lbBuy').href=msgLink(orderText(it));$('#lbBuy').onclick=()=>copyMsg(orderText(it));thumbs();show(0);dlg.showModal()}
   function openGallery(k){cur=null;photos=(data.custom_gallery||[]).map(g=>g.photo);const g=data.custom_gallery[k];
     $('#lbCat').textContent='Special Orders';$('#lbName').textContent='Custom made';$('#lbPrice').textContent='Price on enquiry';$('#lbAvail').textContent='Made to order';$('#lbAvail').hidden=false;
     $('#lbDesc').textContent=g.caption||'A past commission. We can make something like this for you, in your colours.';$('#lbDesc').hidden=false;
-    $('#lbBuy').textContent='Enquire about a custom order';$('#lbBuy').href=MSG;$('#lbBuy').onclick=()=>copyMsg("Hi! I'd love to ask about a custom order.");thumbs();show(k);dlg.showModal()}
+    $('#lbBuy').textContent='Enquire about a custom order';$('#lbBuy').href=msgLink(CUSTOM);$('#lbBuy').onclick=()=>copyMsg("Hi! I'd love to ask about a custom order.");thumbs();show(k);dlg.showModal()}
   $('#lbPrev').onclick=()=>show(idx-1);$('#lbNext').onclick=()=>show(idx+1);$('#lbClose').onclick=()=>dlg.close();
   $('#lbThumbs').addEventListener('click',e=>{const b=e.target.closest('[data-t]');if(b)show(+b.dataset.t)});
   dlg.addEventListener('click',e=>{if(e.target===dlg)dlg.close()});
