@@ -1,0 +1,2434 @@
+{
+ "settings": {
+  "business": "Amethyst Rayne Eclectic Creations",
+  "tagline": "Where Weird Becomes Wonderful",
+  "messenger_link": "https://www.facebook.com/share/1bmnygQxJV/",
+  "facebook_link": "https://www.facebook.com/share/1bmnygQxJV/",
+  "note": "Colours subject to availability. Patterns for the Scare Gang by Rikki Gustafson."
+ },
+ "collections": [
+  {
+   "id": "witches-hut",
+   "name": "Inside the Witch's Hut",
+   "intro": "Come a little closer, my dear… Within these walls lie treasures for sacred spaces and shadowy corners. For the well-practised or the simply curious, there's a little magic here for everyone."
+  },
+  {
+   "id": "oddities",
+   "name": "Oddities",
+   "intro": "Not everything in the hut fits neatly into a category. Curious little finds: strange, charming, and impossible to ignore."
+  },
+  {
+   "id": "mythical",
+   "name": "Mythical Creatures",
+   "intro": "Born of legend, lore and long-told tales. Each one is crafted with care and character, for those drawn to magic, mischief and stories that linger."
+  },
+  {
+   "id": "woodland",
+   "name": "Woodland & Mystical Friends",
+   "intro": "A gentle gathering of creatures from forest floors and far-off realms. Perfect for cosy spaces, curious hearts, and those most at home among moss, myth and make-believe."
+  },
+  {
+   "id": "scare-gang",
+   "name": "Scare Gang",
+   "intro": "A mismatched gang of mythical creatures, each with their own tale to tell. A little spooky, a little sweet, and full of personality. Patterns by Rikki Gustafson."
+  },
+  {
+   "id": "misfits",
+   "name": "A Gathering of Misfits",
+   "intro": "A curious little collection of odd creatures, gathered along the way. Each one a touch strange, full of charm, character and a hint of mischief."
+  },
+  {
+   "id": "horror",
+   "name": "Horror",
+   "intro": "For those drawn to the darker corners of the imagination. Inspired by classic horror, unsettling tales and things best discovered after dark."
+  },
+  {
+   "id": "wearables",
+   "name": "Wearables",
+   "intro": "Not all magic is meant to sit on a shelf. Made to follow you out into the world, adding a little charm, warmth and whimsy wherever you roam."
+  },
+  {
+   "id": "felt",
+   "name": "Felt Creations",
+   "intro": "Made slowly, one stitch at a time. Gentle in nature and rich in character, bringing warmth, texture and a touch of quiet magic to any space."
+  },
+  {
+   "id": "adults",
+   "name": "Adults Only",
+   "intro": "Some things are not meant for little eyes. Grown-up curiosities: bold, cheeky and a little provocative. Crafted for those who like their magic with a wink."
+  }
+ ],
+ "categories": [
+  {
+   "id": "brooms-wands",
+   "name": "Broomsticks & Wands",
+   "collection": "witches-hut",
+   "availability": "Made to order"
+  },
+  {
+   "id": "home-decor",
+   "name": "Home Décor",
+   "collection": "witches-hut",
+   "availability": "Made to order"
+  },
+  {
+   "id": "keychains",
+   "name": "Keychains",
+   "collection": "witches-hut",
+   "availability": "In stock & made to order"
+  },
+  {
+   "id": "gothic-domes",
+   "name": "Gothic Dark Fantasy",
+   "collection": "witches-hut",
+   "availability": "Made to order"
+  },
+  {
+   "id": "bags",
+   "name": "Bags & Pouches",
+   "collection": "witches-hut",
+   "availability": "Made to order"
+  },
+  {
+   "id": "tote-bags",
+   "name": "Tote Bags",
+   "collection": "witches-hut",
+   "availability": "In stock & made to order"
+  },
+  {
+   "id": "car-hangers",
+   "name": "Car Hangers",
+   "collection": "witches-hut",
+   "availability": "In stock & made to order"
+  },
+  {
+   "id": "oddities",
+   "name": "Oddities",
+   "collection": "oddities",
+   "availability": "Made to order"
+  },
+  {
+   "id": "mythical-creatures",
+   "name": "Mythical Creatures",
+   "collection": "mythical",
+   "availability": "In stock & made to order"
+  },
+  {
+   "id": "woodland-wonders",
+   "name": "Woodland Wonders",
+   "collection": "woodland",
+   "availability": "Made to order"
+  },
+  {
+   "id": "mystical-friends",
+   "name": "Mystical Friends",
+   "collection": "woodland",
+   "availability": "Made to order"
+  },
+  {
+   "id": "mini-oddies",
+   "name": "Mini Oddies",
+   "collection": "woodland",
+   "availability": "In stock & made to order"
+  },
+  {
+   "id": "scare-gang",
+   "name": "Scare Gang",
+   "collection": "scare-gang",
+   "availability": "Made to order"
+  },
+  {
+   "id": "misfits",
+   "name": "Misfits",
+   "collection": "misfits",
+   "availability": "Made to order"
+  },
+  {
+   "id": "voodoo",
+   "name": "Voodoo",
+   "collection": "misfits",
+   "availability": "Made to order"
+  },
+  {
+   "id": "spooky-friends",
+   "name": "Spooky Friends",
+   "collection": "misfits",
+   "availability": "Made to order"
+  },
+  {
+   "id": "gothic-dolls",
+   "name": "Gothic Dark Fantasy",
+   "collection": "misfits",
+   "availability": "Made to order"
+  },
+  {
+   "id": "horror",
+   "name": "Horror",
+   "collection": "horror",
+   "availability": "Made to order"
+  },
+  {
+   "id": "potted-freaks",
+   "name": "Potted Freaks",
+   "collection": "horror",
+   "availability": "Made to order"
+  },
+  {
+   "id": "wearables",
+   "name": "Wearables",
+   "collection": "wearables",
+   "availability": "Made to order"
+  },
+  {
+   "id": "tooth-fairy",
+   "name": "Tooth Fairy Pillows",
+   "collection": "felt",
+   "availability": "Made to order"
+  },
+  {
+   "id": "felt-creatures",
+   "name": "Felt Creatures",
+   "collection": "felt",
+   "availability": "Made to order"
+  },
+  {
+   "id": "mythical-decor",
+   "name": "Mythical Décor",
+   "collection": "felt",
+   "availability": "Made to order"
+  },
+  {
+   "id": "bongs",
+   "name": "Bongs",
+   "collection": "adults",
+   "availability": "Made to order"
+  },
+  {
+   "id": "cheeky-gnomes",
+   "name": "Cheeky Gnomes",
+   "collection": "adults",
+   "availability": "Made to order"
+  }
+ ],
+ "items": [
+  {
+   "name": "Broomsticks",
+   "category": "brooms-wands",
+   "price": "$30 each",
+   "photos": [
+    "images/products/brooms-wands-broomsticks.jpg",
+    "images/products/brooms-wands-broomsticks-2.jpg",
+    "images/products/brooms-wands-broomsticks-3.jpg",
+    "images/products/brooms-wands-broomsticks-4.jpg"
+   ],
+   "description": "Decorated witch's brooms. Shown in moon phase, roses, wildflower and sunflower & bee designs.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Voldemort's Wand",
+   "category": "brooms-wands",
+   "price": "$20",
+   "photos": [
+    "images/products/brooms-wands-voldemorts-wand.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Harry's Wand",
+   "category": "brooms-wands",
+   "price": "$20",
+   "photos": [
+    "images/products/brooms-wands-harrys-wand.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Elder Wand",
+   "category": "brooms-wands",
+   "price": "$20",
+   "photos": [
+    "images/products/brooms-wands-elder-wand.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Ollivander's Wand",
+   "category": "brooms-wands",
+   "price": "$20",
+   "photos": [
+    "images/products/brooms-wands-ollivanders-wand.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Eyeball Coasters",
+   "category": "home-decor",
+   "price": "$8 each",
+   "photos": [
+    "images/products/home-decor-eyeball-coasters.jpg"
+   ],
+   "description": "Crochet drink coasters.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Ghost Coasters",
+   "category": "home-decor",
+   "price": "4 for $10",
+   "photos": [
+    "images/products/home-decor-ghost-coasters.jpg"
+   ],
+   "description": "Crochet drink coasters.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Blood Splatter Coasters",
+   "category": "home-decor",
+   "price": "$3 each",
+   "photos": [
+    "images/products/home-decor-blood-splatter-coasters.jpg"
+   ],
+   "description": "Crochet drink coasters.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Dissected Animal",
+   "category": "home-decor",
+   "price": "$50 each",
+   "photos": [
+    "images/products/home-decor-dissected-animal.jpg",
+    "images/products/home-decor-dissected-animal-2.jpg"
+   ],
+   "description": "Crochet dissection pieces. Shown as a rat and a frog.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Eyeball Vase",
+   "category": "home-decor",
+   "price": "$80",
+   "photos": [
+    "images/products/home-decor-eyeball-vase.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Skeleton Doily",
+   "category": "home-decor",
+   "price": "$20 each",
+   "photos": [
+    "images/products/home-decor-skeleton-doily.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Moon Phase Hanger",
+   "category": "home-decor",
+   "price": "$15 each",
+   "photos": [
+    "images/products/home-decor-moon-phase-hanger.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Skull Doily",
+   "category": "home-decor",
+   "price": "$15 each",
+   "photos": [
+    "images/products/home-decor-skull-doily.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Cheeky Ghost",
+   "category": "keychains",
+   "price": "$8 each",
+   "photos": [
+    "images/products/keychains-cheeky-ghost.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Eyeball",
+   "category": "keychains",
+   "price": "$8 each",
+   "photos": [
+    "images/products/keychains-eyeball.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Potion Bottle",
+   "category": "keychains",
+   "price": "$8 each",
+   "photos": [
+    "images/products/keychains-potion-bottle.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Blood Droplets",
+   "category": "keychains",
+   "price": "$8 each",
+   "photos": [
+    "images/products/keychains-blood-droplets.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Bat",
+   "category": "keychains",
+   "price": "$8 each",
+   "photos": [
+    "images/products/keychains-bat.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Frankenstein",
+   "category": "keychains",
+   "price": "$8 each",
+   "photos": [
+    "images/products/keychains-frankenstein.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Ghost",
+   "category": "keychains",
+   "price": "$8 each",
+   "photos": [
+    "images/products/keychains-ghost.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Kitty",
+   "category": "keychains",
+   "price": "$8 each",
+   "photos": [
+    "images/products/keychains-kitty.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Ghosties",
+   "category": "keychains",
+   "price": "$8 each",
+   "photos": [
+    "images/products/keychains-ghosties.jpg"
+   ],
+   "description": "Some glow in the dark, and come with accessories.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Black Heart Dome",
+   "category": "gothic-domes",
+   "price": "$30",
+   "photos": [
+    "images/products/gothic-domes-black-heart-dome.jpg"
+   ],
+   "description": "Under glass, with fairy lights.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Black Rose Dome",
+   "category": "gothic-domes",
+   "price": "$30",
+   "photos": [
+    "images/products/gothic-domes-black-rose-dome.jpg"
+   ],
+   "description": "Under glass, with fairy lights.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Black Heart",
+   "category": "gothic-domes",
+   "price": "$20",
+   "photos": [
+    "images/products/gothic-domes-black-heart.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Single Black Rose",
+   "category": "gothic-domes",
+   "price": "$15",
+   "photos": [
+    "images/products/gothic-domes-single-black-rose.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Skull Bag",
+   "category": "bags",
+   "price": "$15 each",
+   "photos": [
+    "images/products/bags-skull-bag.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Potion Bottle Bag",
+   "category": "bags",
+   "price": "$30 each",
+   "photos": [
+    "images/products/bags-potion-bottle-bag.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Lined Skull Bag",
+   "category": "bags",
+   "price": "$40 each",
+   "photos": [
+    "images/products/bags-lined-skull-bag.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Mushroom Bag",
+   "category": "bags",
+   "price": "$55 each",
+   "photos": [
+    "images/products/bags-mushroom-bag.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Mushroom Market Bag",
+   "category": "bags",
+   "price": "$25 each",
+   "photos": [
+    "images/products/bags-mushroom-market-bag.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Tarot Pouch with Mat",
+   "category": "bags",
+   "price": "$35 each",
+   "photos": [
+    "images/products/bags-tarot-pouch-with-mat.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Gemstone Pouch",
+   "category": "bags",
+   "price": "$15 each",
+   "photos": [
+    "images/products/bags-gemstone-pouch.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Hand Painted Tote",
+   "category": "tote-bags",
+   "price": "$15 each",
+   "photos": [
+    "images/products/tote-bags-hand-painted-tote.jpg",
+    "images/products/tote-bags-hand-painted-tote-2.jpg",
+    "images/products/tote-bags-hand-painted-tote-3.jpg"
+   ],
+   "description": "Every one painted by hand. Designs subject to availability.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Printed Tote",
+   "category": "tote-bags",
+   "price": "$10 each",
+   "photos": [
+    "images/products/tote-bags-printed-tote.jpg",
+    "images/products/tote-bags-printed-tote-2.jpg",
+    "images/products/tote-bags-printed-tote-3.jpg",
+    "images/products/tote-bags-printed-tote-4.jpg",
+    "images/products/tote-bags-printed-tote-5.jpg",
+    "images/products/tote-bags-printed-tote-6.jpg"
+   ],
+   "description": "Designs subject to availability.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Trick or Treat Bags",
+   "category": "tote-bags",
+   "price": "$5 each",
+   "photos": [
+    "images/products/tote-bags-trick-or-treat-bags.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Ghost",
+   "category": "car-hangers",
+   "price": "$15 each",
+   "photos": [
+    "images/products/car-hangers-ghost.jpg",
+    "images/products/car-hangers-ghost-2.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Pumpkin",
+   "category": "car-hangers",
+   "price": "$15 each",
+   "photos": [
+    "images/products/car-hangers-pumpkin.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Vampire",
+   "category": "car-hangers",
+   "price": "$15 each",
+   "photos": [
+    "images/products/car-hangers-vampire.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Eyeball Witch",
+   "category": "car-hangers",
+   "price": "$15 each",
+   "photos": [
+    "images/products/car-hangers-eyeball-witch.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Frankenstein",
+   "category": "car-hangers",
+   "price": "$15 each",
+   "photos": [
+    "images/products/car-hangers-frankenstein.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Voodoo Dolls",
+   "category": "car-hangers",
+   "price": "$15 each",
+   "photos": [
+    "images/products/car-hangers-voodoo-dolls.jpg",
+    "images/products/car-hangers-voodoo-dolls-2.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Goat Heads (curled horns)",
+   "category": "oddities",
+   "price": "$40",
+   "photos": [
+    "images/products/oddities-goat-heads-curled-horns.jpg",
+    "images/products/oddities-goat-heads-curled-horns-2.jpg",
+    "images/products/oddities-goat-heads-curled-horns-3.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Goat Head (tall horns)",
+   "category": "oddities",
+   "price": "$45",
+   "photos": [
+    "images/products/oddities-goat-head-tall-horns.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Deer Head with Rose",
+   "category": "oddities",
+   "price": "$30",
+   "photos": [
+    "images/products/oddities-deer-head-with-rose.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Small Skeley",
+   "category": "oddities",
+   "price": "$10 each",
+   "photos": [
+    "images/products/oddities-small-skeley.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Large Skeley",
+   "category": "oddities",
+   "price": "$20 each",
+   "photos": [
+    "images/products/oddities-large-skeley.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Skeley Kitty",
+   "category": "oddities",
+   "price": "$100",
+   "photos": [
+    "images/products/oddities-skeley-kitty.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Zombie Bunnies",
+   "category": "oddities",
+   "price": "$20 each",
+   "photos": [
+    "images/products/oddities-zombie-bunnies.jpg",
+    "images/products/oddities-zombie-bunnies-2.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Frankie Girl",
+   "category": "oddities",
+   "price": "$35",
+   "photos": [
+    "images/products/oddities-frankie-girl.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Wednesday & Thing",
+   "category": "oddities",
+   "price": "$80",
+   "photos": [
+    "images/products/oddities-wednesday-thing.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Mr & Mrs Franke Head",
+   "category": "oddities",
+   "price": "$90 each",
+   "photos": [
+    "images/products/oddities-mr-mrs-franke-head.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "De-Kay",
+   "category": "oddities",
+   "price": "$45",
+   "photos": [
+    "images/products/oddities-de-kay.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "“Agatha”",
+   "category": "oddities",
+   "price": "$90",
+   "photos": [
+    "images/products/oddities-agatha.jpg",
+    "images/products/oddities-agatha-2.jpg"
+   ],
+   "description": "Before and after: a vintage doll given a haunting new life.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Fiji Mermaid",
+   "category": "mythical-creatures",
+   "price": "$30",
+   "photos": [
+    "images/products/mythical-creatures-fiji-mermaid.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Anubis",
+   "category": "mythical-creatures",
+   "price": "$30",
+   "photos": [
+    "images/products/mythical-creatures-anubis.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Hecate",
+   "category": "mythical-creatures",
+   "price": "$40 set of 3",
+   "photos": [
+    "images/products/mythical-creatures-hecate.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Zombie Frog",
+   "category": "mythical-creatures",
+   "price": "$60",
+   "photos": [
+    "images/products/mythical-creatures-zombie-frog.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Baphomet",
+   "category": "mythical-creatures",
+   "price": "$50",
+   "photos": [
+    "images/products/mythical-creatures-baphomet.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Pegasus",
+   "category": "mythical-creatures",
+   "price": "$30",
+   "photos": [
+    "images/products/mythical-creatures-pegasus.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Cherry Blossom Dragon",
+   "category": "mythical-creatures",
+   "price": "$50",
+   "photos": [
+    "images/products/mythical-creatures-cherry-blossom-dragon.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Lily the Unicorn",
+   "category": "mythical-creatures",
+   "price": "$60",
+   "photos": [
+    "images/products/mythical-creatures-lily-the-unicorn.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Grim Reaper Cat",
+   "category": "mythical-creatures",
+   "price": "$50",
+   "photos": [
+    "images/products/mythical-creatures-grim-reaper-cat.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Witchy Cat",
+   "category": "mythical-creatures",
+   "price": "$50",
+   "photos": [
+    "images/products/mythical-creatures-witchy-cat.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Dawn the Peryton",
+   "category": "mythical-creatures",
+   "price": "$40",
+   "photos": [
+    "images/products/mythical-creatures-dawn-the-peryton.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Go Gopher Wizard",
+   "category": "mythical-creatures",
+   "price": "$50",
+   "photos": [
+    "images/products/mythical-creatures-go-gopher-wizard.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Anise the Dryad",
+   "category": "mythical-creatures",
+   "price": "$40",
+   "photos": [
+    "images/products/mythical-creatures-anise-the-dryad.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Mushroom House",
+   "category": "woodland-wonders",
+   "price": "$80",
+   "photos": [
+    "images/products/woodland-wonders-mushroom-house.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "“Stumpy”",
+   "category": "woodland-wonders",
+   "price": "$80",
+   "photos": [
+    "images/products/woodland-wonders-stumpy.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Mushie Pillow",
+   "category": "woodland-wonders",
+   "price": "$15",
+   "photos": [
+    "images/products/woodland-wonders-mushie-pillow.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Spiders",
+   "category": "woodland-wonders",
+   "price": "$12",
+   "photos": [
+    "images/products/woodland-wonders-spiders.jpg",
+    "images/products/woodland-wonders-spiders-2.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Ssssnake",
+   "category": "woodland-wonders",
+   "price": "$20",
+   "photos": [
+    "images/products/woodland-wonders-ssssnake.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "“Delilah”",
+   "category": "mystical-friends",
+   "price": "$30 each · $80 set of 3",
+   "photos": [
+    "images/products/mystical-friends-delilah.jpg"
+   ],
+   "description": "Part of a trio with Daisy and Fred.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "“Daisy”",
+   "category": "mystical-friends",
+   "price": "$30 each · $80 set of 3",
+   "photos": [
+    "images/products/mystical-friends-daisy.jpg"
+   ],
+   "description": "Part of a trio with Delilah and Fred.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "“Fred”",
+   "category": "mystical-friends",
+   "price": "$30 each · $80 set of 3",
+   "photos": [
+    "images/products/mystical-friends-fred.jpg"
+   ],
+   "description": "Part of a trio with Delilah and Daisy.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Forest Spirit",
+   "category": "mystical-friends",
+   "price": "$80",
+   "photos": [
+    "images/products/mystical-friends-forest-spirit.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Shroom",
+   "category": "mystical-friends",
+   "price": "$35 each",
+   "photos": [
+    "images/products/mystical-friends-shroom.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "“Love Potion Mushie”",
+   "category": "mystical-friends",
+   "price": "$35 each · $90 set of 3",
+   "photos": [
+    "images/products/mystical-friends-love-potion-mushie.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "“Cupcake Mushie”",
+   "category": "mystical-friends",
+   "price": "$35 each · $90 set of 3",
+   "photos": [
+    "images/products/mystical-friends-cupcake-mushie.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "“Sundae Mushie”",
+   "category": "mystical-friends",
+   "price": "$35 each · $90 set of 3",
+   "photos": [
+    "images/products/mystical-friends-sundae-mushie.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "“Delilah” & “Fred”",
+   "category": "mystical-friends",
+   "price": "$35 each",
+   "photos": [
+    "images/products/mystical-friends-delilah-fred.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Fairy Troll",
+   "category": "mini-oddies",
+   "price": "$10 each",
+   "photos": [
+    "images/products/mini-oddies-fairy-troll.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Bad Girl Troll",
+   "category": "mini-oddies",
+   "price": "$10 each",
+   "photos": [
+    "images/products/mini-oddies-bad-girl-troll.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Ninja Troll",
+   "category": "mini-oddies",
+   "price": "$10 each",
+   "photos": [
+    "images/products/mini-oddies-ninja-troll.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Crystal Troll",
+   "category": "mini-oddies",
+   "price": "$10 each",
+   "photos": [
+    "images/products/mini-oddies-crystal-troll.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Butterfly Troll",
+   "category": "mini-oddies",
+   "price": "$10 each",
+   "photos": [
+    "images/products/mini-oddies-butterfly-troll.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Preppie Troll",
+   "category": "mini-oddies",
+   "price": "$10 each",
+   "photos": [
+    "images/products/mini-oddies-preppie-troll.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Zombie Dude",
+   "category": "mini-oddies",
+   "price": "$10 each",
+   "photos": [
+    "images/products/mini-oddies-zombie-dude.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Bunny",
+   "category": "mini-oddies",
+   "price": "$10 each",
+   "photos": [
+    "images/products/mini-oddies-bunny.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Goth Girl",
+   "category": "mini-oddies",
+   "price": "$10 each",
+   "photos": [
+    "images/products/mini-oddies-goth-girl.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Nosferatu",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-nosferatu.jpg"
+   ],
+   "description": "A term often tied to vampires, from the iconic 1922 German silent film “Nosferatu: A Symphony of Horror”. Its Count Orlok was based on Bram Stoker's “Dracula”.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Slender Man",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-slender-man.jpg"
+   ],
+   "description": "A modern internet urban legend, born on the Something Awful forums in 2009: a tall, thin figure with a featureless face, a dark suit and elongated limbs.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Cyclopes",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-cyclopes.jpg"
+   ],
+   "description": "Giant, one-eyed creatures of Greek mythology, known for their strength and craftsmanship, and said to have forged Zeus' thunderbolts.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Zombie",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-zombie.jpg"
+   ],
+   "description": "A lurching, groaning soul with a penchant for brains and an undying love for decomposing fashion trends. Rooted in Haitian voodoo folklore.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Sandworm",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-sandworm.jpg"
+   ],
+   "description": "A whimsical, oversized tube of desert whimsy that roams the dunes with wiggly grace and loves underground hide-and-seek.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Jackalope",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-jackalope.jpg"
+   ],
+   "description": "The legendary antlered rabbit of North American folklore, rarely seen, often bragged about.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Mothman",
+   "category": "scare-gang",
+   "price": "$50",
+   "photos": [
+    "images/products/scare-gang-mothman.jpg"
+   ],
+   "description": "A humanoid figure with large wings and glowing red eyes, from 1960s sightings around Point Pleasant, West Virginia. Also comes as a mini.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Purple People Eater",
+   "category": "scare-gang",
+   "price": "$15",
+   "photos": [
+    "images/products/scare-gang-purple-people-eater.jpg"
+   ],
+   "description": "The one-eyed, one-horned, flying purple people eater of Sheb Wooley's 1958 novelty song.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Boogeyman",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-boogeyman.jpg"
+   ],
+   "description": "The mythical monster found in folklore across many cultures, said to lurk in the shadows or under beds.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Mermaid",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-mermaid.jpg"
+   ],
+   "description": "Upper body of a human, tail of a fish. The enchanting sea-dwellers of maritime legends worldwide.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Fairies",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-fairies.jpg"
+   ],
+   "description": "Ancient beings of European folklore, said to dwell in forests, lakes and meadows, linked in Celtic myth to the Otherworld.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Mini Mothman",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-mini-mothman.jpg"
+   ],
+   "description": "All the glowing-eyed mystery of the Mothman, in a pocket-sized package.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Cthulhu",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-cthulhu.jpg"
+   ],
+   "description": "One of the Great Old Ones: an octopus head of writhing feelers, clawed feet and long narrow wings. It's said to look upon it means certain death.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Nessie",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-nessie.jpg"
+   ],
+   "description": "The Loch Ness Monster of Scottish folklore: long-necked, humped, and forever just out of frame.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "3 Headed Ghost",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-3-headed-ghost.jpg"
+   ],
+   "description": "A spectral apparition with three faces, each with its own mood, inspired by Cerberus, the three-headed guardian of the underworld.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Kitsune",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-kitsune.jpg"
+   ],
+   "description": "Trickster foxes of Japanese folklore: a type of yōkai with godlike powers.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Chupacabra",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-chupacabra.jpg"
+   ],
+   "description": "The “goat sucker”: the vampire-like creature of Puerto Rican sightings in the late 1980s and early '90s.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Werewolf",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-werewolf.jpg"
+   ],
+   "description": "Human by day, howling by full moon. The shapeshifter of countless legends.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "The Greys",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-the-greys.jpg"
+   ],
+   "description": "The classic extraterrestrial visitors: big heads, big black eyes, and a lot of curiosity about Earth.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Leshy",
+   "category": "scare-gang",
+   "price": "$15",
+   "photos": [
+    "images/products/scare-gang-leshy.jpg"
+   ],
+   "description": "A Slavic forest spirit said to dwell in the deepest woods, embodying the forest's wild and mysterious essence.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Chimera",
+   "category": "scare-gang",
+   "price": "$30",
+   "photos": [
+    "images/products/scare-gang-chimera.jpg"
+   ],
+   "description": "Greek myth's monstrous hybrid: a lion's body, a goat's head on its back, and a serpent's tail.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Centaur",
+   "category": "scare-gang",
+   "price": "$20",
+   "photos": [
+    "images/products/scare-gang-centaur.jpg"
+   ],
+   "description": "Half human, half horse: wild, strong and skilled in hunting and battle.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Medusa",
+   "category": "scare-gang",
+   "price": "$20",
+   "photos": [
+    "images/products/scare-gang-medusa.jpg"
+   ],
+   "description": "The Gorgon with snakes for hair, whose gaze turns people to stone.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Minotaur",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-minotaur.jpg"
+   ],
+   "description": "The bull-headed guardian of the Cretan labyrinth.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Dragons",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-dragons.jpg"
+   ],
+   "description": "Small dragons with big personalities. Hoarders of treasure (and yarn).",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Gargoyle",
+   "category": "scare-gang",
+   "price": "$10",
+   "photos": [
+    "images/products/scare-gang-gargoyle.jpg"
+   ],
+   "description": "Stone-faced protectors that keep watch from the rooftops.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Funky Monsters",
+   "category": "misfits",
+   "price": "$10 each",
+   "photos": [
+    "images/products/misfits-funky-monsters.jpg",
+    "images/products/misfits-funky-monsters-2.jpg",
+    "images/products/misfits-funky-monsters-3.jpg",
+    "images/products/misfits-funky-monsters-4.jpg",
+    "images/products/misfits-funky-monsters-5.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Zombie Brain Turtles",
+   "category": "misfits",
+   "price": "$10 each",
+   "photos": [
+    "images/products/misfits-zombie-brain-turtles.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Thing",
+   "category": "misfits",
+   "price": "$10 each",
+   "photos": [
+    "images/products/misfits-thing.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Super Cute Monsters",
+   "category": "misfits",
+   "price": "$4 each",
+   "photos": [
+    "images/products/misfits-super-cute-monsters.jpg",
+    "images/products/misfits-super-cute-monsters-2.jpg",
+    "images/products/misfits-super-cute-monsters-3.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Lady Voodoo",
+   "category": "voodoo",
+   "price": "$40",
+   "photos": [
+    "images/products/voodoo-lady-voodoo.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Bluedoo Voodoo",
+   "category": "voodoo",
+   "price": "$40",
+   "photos": [
+    "images/products/voodoo-bluedoo-voodoo.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Voodoo Matching Set",
+   "category": "voodoo",
+   "price": "$70",
+   "photos": [
+    "images/products/voodoo-voodoo-matching-set.jpg"
+   ],
+   "description": "Lady Voodoo and Bluedoo Voodoo together.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Hanging Bat",
+   "category": "spooky-friends",
+   "price": "$25",
+   "photos": [
+    "images/products/spooky-friends-hanging-bat.jpg",
+    "images/products/spooky-friends-hanging-bat-2.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Ghostie",
+   "category": "spooky-friends",
+   "price": "$15",
+   "photos": [
+    "images/products/spooky-friends-ghostie.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Skulls",
+   "category": "spooky-friends",
+   "price": "$20 each",
+   "photos": [
+    "images/products/spooky-friends-skulls.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Cute Ghostie",
+   "category": "spooky-friends",
+   "price": "$5 each",
+   "photos": [
+    "images/products/spooky-friends-cute-ghostie.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Goth Girl with Voodoo",
+   "category": "gothic-dolls",
+   "price": "$85",
+   "photos": [
+    "images/products/gothic-dolls-goth-girl-with-voodoo.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Luna & Voodoo Bunny",
+   "category": "gothic-dolls",
+   "price": "$60",
+   "photos": [
+    "images/products/gothic-dolls-luna-voodoo-bunny.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Skull Choker",
+   "category": "gothic-dolls",
+   "price": "$15 each",
+   "photos": [
+    "images/products/gothic-dolls-skull-choker.jpg",
+    "images/products/gothic-dolls-skull-choker-2.jpg"
+   ],
+   "description": "With or without beads.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Pennywise",
+   "category": "horror",
+   "price": "$50",
+   "photos": [
+    "images/products/horror-pennywise.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Michael Myers",
+   "category": "horror",
+   "price": "$50",
+   "photos": [
+    "images/products/horror-michael-myers.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Freddy Krueger",
+   "category": "horror",
+   "price": "$50",
+   "photos": [
+    "images/products/horror-freddy-krueger.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Jason Voorhees",
+   "category": "horror",
+   "price": "$50",
+   "photos": [
+    "images/products/horror-jason-voorhees.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Slender Man",
+   "category": "horror",
+   "price": "$50",
+   "photos": [
+    "images/products/horror-slender-man.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Chucky",
+   "category": "horror",
+   "price": "$50",
+   "photos": [
+    "images/products/horror-chucky.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Hannibal Lecter",
+   "category": "horror",
+   "price": "$25 large · $15 small",
+   "photos": [
+    "images/products/horror-hannibal-lecter.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Sam “Trick 'r Treat”",
+   "category": "horror",
+   "price": "$45",
+   "photos": [
+    "images/products/horror-sam-trick-r-treat.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Ghost Face",
+   "category": "horror",
+   "price": "$30",
+   "photos": [
+    "images/products/horror-ghost-face.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Ghost Face with Blood",
+   "category": "horror",
+   "price": "$40",
+   "photos": [
+    "images/products/horror-ghost-face-with-blood.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Mini Freddy Krueger",
+   "category": "horror",
+   "price": "$10",
+   "photos": [
+    "images/products/horror-mini-freddy-krueger.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Mini Michael Myers",
+   "category": "horror",
+   "price": "$10",
+   "photos": [
+    "images/products/horror-mini-michael-myers.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Beetlejuice",
+   "category": "horror",
+   "price": "$30",
+   "photos": [
+    "images/products/horror-beetlejuice.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Mini Horrors",
+   "category": "horror",
+   "price": "$10",
+   "photos": [],
+   "description": "Coming soon.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Franken Plant",
+   "category": "potted-freaks",
+   "price": "$75",
+   "photos": [
+    "images/products/potted-freaks-franken-plant.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Pennywise Plant",
+   "category": "potted-freaks",
+   "price": "$75",
+   "photos": [
+    "images/products/potted-freaks-pennywise-plant.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Small Skull Shawl",
+   "category": "wearables",
+   "price": "$35 each",
+   "photos": [
+    "images/products/wearables-small-skull-shawl.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Large Skull Shawl",
+   "category": "wearables",
+   "price": "$65 each",
+   "photos": [
+    "images/products/wearables-large-skull-shawl.jpg",
+    "images/products/wearables-large-skull-shawl-2.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Barefoot Sandals",
+   "category": "wearables",
+   "price": "$5 per pair",
+   "photos": [
+    "images/products/wearables-barefoot-sandals.jpg",
+    "images/products/wearables-barefoot-sandals-2.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Cat Witch's Hat",
+   "category": "wearables",
+   "price": "$20",
+   "photos": [
+    "images/products/wearables-cat-witchs-hat.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Rib Cage Top",
+   "category": "wearables",
+   "price": "$65",
+   "photos": [
+    "images/products/wearables-rib-cage-top.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Lazy Witch's Hat",
+   "category": "wearables",
+   "price": "$15",
+   "photos": [
+    "images/products/wearables-lazy-witchs-hat.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Iggy",
+   "category": "tooth-fairy",
+   "price": "$25 each",
+   "photos": [
+    "images/products/tooth-fairy-iggy.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Niffy",
+   "category": "tooth-fairy",
+   "price": "$25 each",
+   "photos": [
+    "images/products/tooth-fairy-niffy.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Zezee",
+   "category": "tooth-fairy",
+   "price": "$25 each",
+   "photos": [
+    "images/products/tooth-fairy-zezee.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Tootles",
+   "category": "tooth-fairy",
+   "price": "$25 each",
+   "photos": [
+    "images/products/tooth-fairy-tootles.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Apricot",
+   "category": "felt-creatures",
+   "price": "$20",
+   "photos": [
+    "images/products/felt-creatures-apricot.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Celeste",
+   "category": "felt-creatures",
+   "price": "$30",
+   "photos": [
+    "images/products/felt-creatures-celeste.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Go Boo",
+   "category": "felt-creatures",
+   "price": "$25",
+   "photos": [
+    "images/products/felt-creatures-go-boo.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Cheeky Devil",
+   "category": "felt-creatures",
+   "price": "$25",
+   "photos": [
+    "images/products/felt-creatures-cheeky-devil.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Alzombo",
+   "category": "felt-creatures",
+   "price": "$30",
+   "photos": [
+    "images/products/felt-creatures-alzombo.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Hell Baby Boy",
+   "category": "felt-creatures",
+   "price": "$25",
+   "photos": [
+    "images/products/felt-creatures-hell-baby-boy.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Ouija Pillow",
+   "category": "felt-creatures",
+   "price": "$20",
+   "photos": [
+    "images/products/felt-creatures-ouija-pillow.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Chucky (felt)",
+   "category": "felt-creatures",
+   "price": "$25",
+   "photos": [
+    "images/products/felt-creatures-chucky-felt.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Crystal Balls",
+   "category": "mythical-decor",
+   "price": "$5 each",
+   "photos": [
+    "images/products/mythical-decor-crystal-balls.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Cleo Doll",
+   "category": "mythical-decor",
+   "price": "$30",
+   "photos": [
+    "images/products/mythical-decor-cleo-doll.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Zombie Boy Doll",
+   "category": "mythical-decor",
+   "price": "$50",
+   "photos": [
+    "images/products/mythical-decor-zombie-boy-doll.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Zombie Girl Doll",
+   "category": "mythical-decor",
+   "price": "$50",
+   "photos": [],
+   "description": "Coming soon.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Small Bong with Lashes",
+   "category": "bongs",
+   "price": "$35",
+   "photos": [
+    "images/products/bongs-small-bong-with-lashes.jpg",
+    "images/products/bongs-small-bong-with-lashes-2.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Small Bong",
+   "category": "bongs",
+   "price": "$30",
+   "photos": [
+    "images/products/bongs-small-bong.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Large Bongs",
+   "category": "bongs",
+   "price": "$45",
+   "photos": [
+    "images/products/bongs-large-bongs.jpg"
+   ],
+   "description": "Colours of your choice.",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Go Away Gnome",
+   "category": "cheeky-gnomes",
+   "price": "$20",
+   "photos": [
+    "images/products/cheeky-gnomes-go-away-gnome.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "F*** Off Gnome",
+   "category": "cheeky-gnomes",
+   "price": "$20",
+   "photos": [
+    "images/products/cheeky-gnomes-f-off-gnome.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  }
+ ],
+ "custom_gallery": [
+  {
+   "photo": "images/custom/custom-01.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-02.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-03.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-04.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-05.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-06.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-07.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-08.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-09.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-10.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-11.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-12.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-13.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-14.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-15.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-16.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-17.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-18.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-19.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-20.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-21.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-22.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-23.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-24.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-25.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-26.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-27.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-28.jpg",
+   "caption": ""
+  },
+  {
+   "photo": "images/custom/custom-29.jpg",
+   "caption": ""
+  }
+ ]
+}

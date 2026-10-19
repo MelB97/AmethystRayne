@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Amethyst Rayne Eclectic Creations</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Handmade crochet and felt oddities, horror dolls, mythical creatures and witchy décor from Amethyst Rayne Eclectic Creations, Queensland. Custom orders welcome.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=IM+Fell+English:ital@1&family=Alegreya+Sans:wght@400;500;700&display=swap">
+<style>
+/* Layout: an apothecary-style printed catalogue. Collections open like chapters, shelves of pieces under each, one sticky index bar. */
+:root{
+  --bg:#f4f0f6; --surface:#fffdfc; --sunk:#e9e2ee; --ink:#2a1f33; --muted:#6c5f78; --line:#d8cddf;
+  --gold:#8a6519; --amethyst:#6b3fa0; --amethyst-ink:#ffffff; --tag:#efe6f7; --tag-ink:#55307f; --new:#a3341f;
+  --display:"IM Fell English SC","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --italic:"IM Fell English","Iowan Old Style",Georgia,serif;
+  --body:"Alegreya Sans","Gill Sans","Trebuchet MS",system-ui,sans-serif;
+  --shadow:0 1px 2px rgba(42,31,51,.08),0 8px 24px -12px rgba(42,31,51,.25);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#17111c; --surface:#211829; --sunk:#120d16; --ink:#efe6d8; --muted:#b3a5bd; --line:#3a2d45;
+  --gold:#d4ae5a; --amethyst:#a77bd6; --amethyst-ink:#17111c; --tag:#2e2139; --tag-ink:#d8c2f0; --new:#f08a6c;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px -14px rgba(0,0,0,.8); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#17111c; --surface:#211829; --sunk:#120d16; --ink:#efe6d8; --muted:#b3a5bd; --line:#3a2d45;
+  --gold:#d4ae5a; --amethyst:#a77bd6; --amethyst-ink:#17111c; --tag:#2e2139; --tag-ink:#d8c2f0; --new:#f08a6c;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 30px -14px rgba(0,0,0,.8); color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.55 var(--body)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--bg)}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--amethyst);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0;line-height:1.05}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.45em;font:700 15px/1 var(--body);letter-spacing:.02em;text-decoration:none;border-radius:999px;padding:.8em 1.25em;border:1.5px solid transparent;cursor:pointer;transition:transform .15s,background .15s}
+.btn-buy{background:var(--amethyst);color:var(--amethyst-ink)}
+.btn-buy:hover{transform:translateY(-1px)}
+.btn-ghost{background:transparent;border-color:var(--line);color:var(--ink)}
+.btn-ghost:hover{border-color:var(--amethyst)}
+.btn svg{width:1.1em;height:1.1em;flex:none}
+
+/* masthead */
+.mast{padding-block:28px 8px}
+.mast-row{display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+.mast img{width:clamp(110px,18vw,170px);height:auto}
+.mast-text{flex:1 1 300px;min-width:0}
+.eyebrow{font:500 13px/1.2 var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.mast h1{font-size:clamp(34px,5.4vw,64px);margin-block:.15em .1em}
+.mast .tag{font:italic 22px/1.3 var(--italic);color:var(--muted);margin:0}
+.mast-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.ledger{display:flex;flex-wrap:wrap;gap:6px 22px;margin-top:22px;padding-top:14px;border-top:1px solid var(--line);font-size:15px;color:var(--muted)}
+.ledger b{color:var(--ink);font-variant-numeric:tabular-nums}
+
+/* sticky index */
+.index{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.index .wrap{display:flex;gap:12px;align-items:center;padding-block:10px}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0;mask-image:linear-gradient(90deg,#000 92%,transparent)}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;font:500 14px/1 var(--body);padding:.6em .95em;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);text-decoration:none;white-space:nowrap}
+.chip:hover,.chip.on{border-color:var(--amethyst);color:var(--tag-ink);background:var(--tag)}
+.search{position:relative;flex:0 1 240px;min-width:130px}
+.search input{width:100%;font:400 15px var(--body);padding:.6em .9em .6em 2.1em;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.search svg{position:absolute;left:.75em;top:50%;transform:translateY(-50%);width:15px;height:15px;color:var(--muted)}
+@media (max-width:620px){.index .wrap{flex-wrap:wrap}.search{flex:1 1 100%;order:-1}}
+
+/* custom banner */
+.custom-band{margin-block:26px 6px;display:grid;grid-template-columns:1fr auto;gap:16px 28px;align-items:center;padding:22px 26px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.custom-band h2{font-size:clamp(24px,3vw,32px);color:var(--gold)}
+.custom-band p{margin:.3em 0 0;color:var(--muted);max-width:60ch}
+@media (max-width:620px){.custom-band{grid-template-columns:1fr}}
+
+/* chapters */
+.chapter{padding-block:56px 8px;scroll-margin-top:70px}
+.chapter-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:12px 40px;align-items:end;padding-bottom:18px;border-bottom:2px solid var(--ink)}
+.chapter-head h2{font-size:clamp(38px,6vw,72px);color:var(--gold)}
+.chapter-head p{margin:0;font:italic 19px/1.45 var(--italic);color:var(--muted);max-width:58ch}
+.chapter-count{font:500 13px var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:.4em}
+@media (max-width:760px){.chapter-head{grid-template-columns:1fr}}
+.shelf{padding-top:30px}
+.shelf-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;margin-bottom:16px}
+.shelf-head h3{font-size:clamp(24px,3vw,30px)}
+.avail{font:700 12px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;padding:.45em .7em;border-radius:4px;background:var(--tag);color:var(--tag-ink)}
+.shelf-note{font-size:14px;color:var(--muted)}
+
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:22px 18px}
+@media (max-width:520px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 12px}}
+.card{display:flex;flex-direction:column;min-width:0}
+.ph{position:relative;display:block;width:100%;aspect-ratio:4/5;max-width:100%;border-radius:10px;overflow:hidden;background:var(--sunk);border:0;padding:0;cursor:zoom-in;box-shadow:var(--shadow)}
+.ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s}
+.card:hover .ph img{transform:scale(1.035)}
+.ph .count{position:absolute;right:8px;bottom:8px;font:700 12px/1 var(--body);padding:.4em .6em;border-radius:999px;background:rgba(23,17,28,.72);color:#fff}
+.ph .flag{position:absolute;left:8px;top:8px;font:700 11px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;padding:.45em .6em;border-radius:4px;background:var(--new);color:#fff}
+.ph .flag.sold{background:#4a4150}
+.soon{display:grid;place-items:center;height:100%;font:italic 26px var(--italic);color:var(--muted);text-align:center;padding:12px;border:1.5px dashed var(--line);border-radius:10px;cursor:default}
+.card-body{display:flex;flex-direction:column;gap:4px;padding-top:12px;flex:1}
+.card h4{margin:0;font:700 17px/1.25 var(--body)}
+.price{font:500 15px var(--body);color:var(--gold);font-variant-numeric:tabular-nums}
+.lore{font-size:14px;line-height:1.45;color:var(--muted);margin:2px 0 0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card .btn{margin-top:auto;align-self:flex-start;padding:.65em 1em;font-size:14px}
+.card-body .spacer{flex:1;min-height:8px}
+
+/* custom gallery */
+.gallery{columns:4 220px;column-gap:14px;padding-top:24px}
+.gallery button{display:block;width:100%;margin:0 0 14px;padding:0;border:0;border-radius:10px;overflow:hidden;background:var(--sunk);cursor:zoom-in;break-inside:avoid;box-shadow:var(--shadow)}
+.gallery img{display:block;width:100%;height:auto}
+
+/* adults gate */
+.gate{margin-top:26px;padding:34px 24px;border:1.5px dashed var(--line);border-radius:14px;text-align:center;display:grid;gap:14px;justify-items:center}
+.gate p{margin:0;color:var(--muted);max-width:52ch}
+
+footer{margin-top:70px;padding-block:36px 48px;border-top:2px solid var(--ink)}
+footer .wrap{display:grid;grid-template-columns:auto 1fr;gap:20px 30px;align-items:center}
+footer img{width:90px;height:auto}
+footer p{margin:.2em 0;color:var(--muted);font-size:15px}
+footer h2{font-size:30px}
+@media (max-width:560px){footer .wrap{grid-template-columns:1fr}}
+.empty{padding:50px 0;text-align:center;color:var(--muted);font:italic 22px var(--italic)}
+
+/* lightbox */
+dialog{border:0;padding:0;max-width:min(1000px,calc(100vw - 24px));width:100%;max-height:calc(100dvh - 24px);border-radius:16px;background:var(--surface);color:var(--ink);box-shadow:0 30px 80px rgba(0,0,0,.5)}
+dialog::backdrop{background:rgba(12,8,15,.78)}
+.lb{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);max-height:calc(100dvh - 24px)}
+.lb-stage{position:relative;background:var(--sunk);display:grid;place-items:center;min-height:300px}
+.lb-stage img{max-width:100%;max-height:calc(100dvh - 24px);object-fit:contain;display:block}
+.lb-nav{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:50%;border:0;background:rgba(23,17,28,.7);color:#fff;font-size:22px;cursor:pointer}
+.lb-prev{left:10px}.lb-next{right:10px}
+.lb-info{padding:28px 26px;display:flex;flex-direction:column;gap:12px;overflow:auto}
+.lb-info h3{font-size:34px}
+.lb-info .price{font-size:19px}
+.lb-info p{margin:0;color:var(--muted)}
+.thumbs{display:flex;gap:8px;flex-wrap:wrap}
+.thumbs button{width:56px;height:56px;padding:0;border:2px solid transparent;border-radius:8px;overflow:hidden;cursor:pointer;background:var(--sunk)}
+.thumbs button.on{border-color:var(--amethyst)}
+.thumbs img{width:100%;height:100%;object-fit:cover}
+.lb-close{position:absolute;top:10px;right:10px;z-index:2;width:38px;height:38px;border-radius:50%;border:0;background:rgba(23,17,28,.7);color:#fff;font-size:20px;cursor:pointer}
+.howto{font-size:14px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px;margin-top:auto}
+@media (max-width:760px){.lb{grid-template-columns:1fr;overflow:auto}.lb-stage img{max-height:60dvh}}
+
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translate(-50%,140%);background:var(--ink);color:var(--bg);padding:12px 18px;border-radius:12px;font:500 15px var(--body);max-width:calc(100vw - 32px);box-shadow:var(--shadow);transition:transform .25s,visibility .25s;z-index:50;visibility:hidden}
+.toast.show{transform:translate(-50%,0);visibility:visible}
+</style>
+</head>
+<body>
+
+<header class="mast wrap">
+  <div class="mast-row">
+    <img src="images/logo.png" alt="Amethyst Rayne Eclectic Creations logo" width="170" height="170">
+    <div class="mast-text">
+      <div class="eyebrow">Handmade crochet &amp; felt · Queensland</div>
+      <h1 id="biz">Amethyst Rayne Eclectic Creations</h1>
+      <p class="tag" id="tagline">Where Weird Becomes Wonderful</p>
+      <div class="mast-actions">
+        <a class="btn btn-buy js-msg" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.4 2 2 6.1 2 11.4c0 2.8 1.2 5.2 3.2 6.9V22l3-1.7c1.2.3 2.4.5 3.8.5 5.6 0 10-4.1 10-9.4S17.6 2 12 2Zm1 12.6-2.5-2.7-4.9 2.7 5.4-5.8 2.6 2.7 4.8-2.7-5.4 5.8Z"/></svg>Message us to order</a>
+        <a class="btn btn-ghost" href="#custom">Custom orders</a>
+      </div>
+    </div>
+  </div>
+  <div class="ledger" id="ledger"></div>
+</header>
+
+<nav class="index" aria-label="Catalogue sections">
+  <div class="wrap">
+    <div class="chips" id="chips"></div>
+    <label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" placeholder="Search the catalogue" aria-label="Search the catalogue"></label>
+  </div>
+</nav>
+
+<main class="wrap">
+  <section class="custom-band" aria-label="Custom orders">
+    <div>
+      <h2>Custom orders available</h2>
+      <p>Most pieces are made to order, so colours can be changed to suit. Have something else in mind? Send a photo or an idea and we'll see what magic can be worked.</p>
+    </div>
+    <a class="btn btn-buy js-msg" data-msg="Hi! I'd love to ask about a custom order." href="#" target="_blank" rel="noopener">Request a custom piece</a>
+  </section>
+  <div id="catalogue"></div>
+  <div class="empty" id="empty" hidden>Nothing in the hut matches that. Try another word.</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="images/logo.png" alt="" width="90" height="90">
+    <div>
+      <h2>The door is always open</h2>
+      <p>To order, tap <b>Buy now</b> on any piece and send us a message on Facebook. Colours subject to availability.</p>
+      <p>Scare Gang patterns by Rikki Gustafson.</p>
+      <p><a class="js-fb" href="#" target="_blank" rel="noopener">Find us on Facebook</a></p>
+    </div>
+  </div>
+</footer>
+
+<dialog id="lb" aria-label="Product photos">
+  <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+  <div class="lb">
+    <div class="lb-stage"><img id="lbImg" alt=""><button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous photo">‹</button><button class="lb-nav lb-next" id="lbNext" aria-label="Next photo">›</button></div>
+    <div class="lb-info">
+      <div class="eyebrow" id="lbCat"></div>
+      <h3 id="lbName"></h3>
+      <div class="price" id="lbPrice"></div>
+      <span class="avail" id="lbAvail" style="align-self:flex-start"></span>
+      <p id="lbDesc"></p>
+      <div class="thumbs" id="lbThumbs"></div>
+      <a class="btn btn-buy" id="lbBuy" href="#" target="_blank" rel="noopener" style="align-self:flex-start">Buy now</a>
+      <div class="howto">Tapping Buy now copies your order message. Paste it into Messenger when our Facebook page opens.</div>
+    </div>
+  </div>
+</dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(async function(){
+  const $=s=>document.querySelector(s);
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  let data;
+  try{ data=await (await fetch('data/catalogue.json',{cache:'no-cache'})).json(); }
+  catch(e){ $('#catalogue').innerHTML='<p class="empty">The catalogue could not load. Refresh the page to try again.</p>'; return; }
+  const S=data.settings||{}, MSG=S.messenger_link, FB=S.facebook_link||MSG;
+  const cats=Object.fromEntries(data.categories.map(c=>[c.id,c]));
+  const items=data.items.map((it,i)=>({...it,i,cat:cats[it.category]||{name:'Other',collection:'',availability:''}}));
+  let adultsOpen=false; try{adultsOpen=sessionStorage.getItem('ar18')==='1'}catch(e){}
+
+  document.querySelectorAll('.js-fb').forEach(a=>a.href=FB);
+  document.querySelectorAll('.js-msg').forEach(a=>{a.href=MSG;a.addEventListener('click',()=>copyMsg(a.dataset.msg||"Hi! I'd like to place an order from your catalogue."))});
+
+  const priced=items.filter(i=>i.photos&&i.photos.length).length;
+  $('#ledger').innerHTML=`<span><b>${items.length}</b> pieces</span><span><b>${data.collections.length}</b> collections</span><span><b>${data.categories.length}</b> shelves</span><span>Made to order in your colours</span>`;
+
+  function toast(t){const el=$('#toast');el.textContent=t;el.classList.add('show');clearTimeout(toast.t);toast.t=setTimeout(()=>el.classList.remove('show'),4200)}
+  function copyMsg(text){
+    try{ navigator.clipboard.writeText(text).then(()=>toast('Order message copied. Paste it into Messenger.'),()=>toast('Opening Facebook. Send us the name of the piece you want.')); }
+    catch(e){ toast('Opening Facebook. Send us the name of the piece you want.'); }
+  }
+  const orderText=it=>`Hi! I'd like to order: ${it.name} (${it.price}) from the Amethyst Rayne catalogue.`;
+
+  function card(it){
+    const p=it.photos||[];
+    const flag=it.sold_out?'<span class="flag sold">Sold out</span>':it.new?'<span class="flag">New</span>':'';
+    const ph=p.length?`<button class="ph" data-open="${it.i}" aria-label="View photos of ${esc(it.name)}"><img src="${esc(p[0])}" alt="${esc(it.name)}" loading="lazy" decoding="async">${flag}${p.length>1?`<span class="count">${p.length} photos</span>`:''}</button>`
+                    :`<div class="ph soon" aria-hidden="true">Photo<br>coming soon</div>`;
+    const lore=it.cat.collection==='scare-gang'&&it.description?`<p class="lore">${esc(it.description)}</p>`:'';
+    return `<article class="card" data-search="${esc((it.name+' '+it.cat.name+' '+(it.description||'')).toLowerCase())}">${ph}<div class="card-body"><h4>${esc(it.name)}</h4><div class="price">${esc(it.price)}</div>${lore}<span class="spacer"></span><a class="btn btn-buy" href="${esc(MSG)}" target="_blank" rel="noopener" data-buy="${it.i}">Buy now</a></div></article>`;
+  }
+
+  function render(){
+    let html='';
+    for(const col of data.collections){
+      const shelves=data.categories.filter(c=>c.collection===col.id);
+      const n=items.filter(i=>i.cat.collection===col.id).length;
+      if(!n) continue;
+      const gated=col.id==='adults'&&!adultsOpen;
+      html+=`<section class="chapter" id="${esc(col.id)}" data-col><div class="chapter-head"><div><div class="chapter-count">${n} pieces</div><h2>${esc(col.name)}</h2></div><p>${esc(col.intro)}</p></div>`;
+      if(gated){ html+=`<div class="gate"><p>This collection is for grown-ups only. Please confirm you're 18 or over to view it.</p><button class="btn btn-ghost" id="open18">I'm 18+, show me</button></div></section>`; continue; }
+      for(const c of shelves){
+        const list=items.filter(i=>i.category===c.id); if(!list.length) continue;
+        html+=`<div class="shelf" data-shelf><div class="shelf-head">${c.name===col.name?'':`<h3>${esc(c.name)}</h3>`}${c.availability?`<span class="avail">${esc(c.availability)}</span>`:''}</div><div class="grid">${list.map(card).join('')}</div></div>`;
+      }
+      html+='</section>';
+    }
+    const g=data.custom_gallery||[];
+    html+=`<section class="chapter" id="custom" data-col><div class="chapter-head"><div><div class="chapter-count">Past commissions</div><h2>Special Orders</h2></div><p>Whisper your request and we'll see what magic can be worked. These pieces were made especially for people who didn't mind waiting for something truly theirs.</p></div>
+      <div class="gallery">${g.map((x,k)=>`<button data-gal="${k}" aria-label="View custom piece ${k+1}"><img src="${esc(x.photo)}" alt="${esc(x.caption||'Custom made piece')}" loading="lazy" decoding="async"></button>`).join('')}</div>
+      <p style="text-align:center;margin-top:18px"><a class="btn btn-buy" href="${esc(MSG)}" target="_blank" rel="noopener" data-custom>Enquire about a custom order</a></p></section>`;
+    $('#catalogue').innerHTML=html;
+    const chipCols=[...data.collections.filter(c=>items.some(i=>i.cat.collection===c.id)),{id:'custom',name:'Special Orders'}];
+    $('#chips').innerHTML=chipCols.map(c=>`<a class="chip" href="#${esc(c.id)}">${esc(c.name)}</a>`).join('');
+    const b=$('#open18'); if(b) b.onclick=()=>{adultsOpen=true;try{sessionStorage.setItem('ar18','1')}catch(e){};render();location.hash='adults'};
+    filter();
+  }
+
+  // search
+  function filter(){
+    const q=$('#q').value.trim().toLowerCase(); let any=false;
+    document.querySelectorAll('[data-col]').forEach(sec=>{
+      let secHit=false;
+      sec.querySelectorAll('[data-shelf]').forEach(sh=>{let hit=false;sh.querySelectorAll('.card').forEach(c=>{const ok=!q||c.dataset.search.includes(q);c.hidden=!ok;hit=hit||ok});sh.hidden=!hit;secHit=secHit||hit});
+      if(sec.id==='custom'||sec.querySelector('.gate')) secHit=!q;
+      sec.hidden=!secHit; any=any||secHit;
+    });
+    $('#empty').hidden=any;
+  }
+  $('#q').addEventListener('input',filter);
+
+  // clicks
+  document.addEventListener('click',e=>{
+    const buy=e.target.closest('[data-buy]'); if(buy){copyMsg(orderText(items[buy.dataset.buy]));return}
+    if(e.target.closest('[data-custom]')){copyMsg("Hi! I'd love to ask about a custom order.");return}
+    const op=e.target.closest('[data-open]'); if(op){openItem(items[op.dataset.open]);return}
+    const gl=e.target.closest('[data-gal]'); if(gl){openGallery(+gl.dataset.gal);return}
+  });
+
+  // lightbox
+  const dlg=$('#lb'); let photos=[],idx=0,cur=null;
+  function show(k){idx=(k+photos.length)%photos.length;$('#lbImg').src=photos[idx];$('#lbImg').alt=cur?cur.name:'Custom made piece';
+    document.querySelectorAll('#lbThumbs button').forEach((b,j)=>b.classList.toggle('on',j===idx));
+    $('#lbPrev').hidden=$('#lbNext').hidden=photos.length<2}
+  function thumbs(){$('#lbThumbs').innerHTML=photos.length>1?photos.map((p,j)=>`<button data-t="${j}" aria-label="Photo ${j+1}"><img src="${esc(p)}" alt=""></button>`).join(''):''}
+  function openItem(it){cur=it;photos=it.photos;$('#lbCat').textContent=it.cat.name;$('#lbName').textContent=it.name;$('#lbPrice').textContent=it.price;
+    $('#lbAvail').textContent=it.sold_out?'Sold out':(it.availability||it.cat.availability||'');$('#lbAvail').hidden=!$('#lbAvail').textContent;
+    $('#lbDesc').textContent=it.description||'';$('#lbDesc').hidden=!it.description;
+    $('#lbBuy').textContent='Buy now';$('#lbBuy').href=MSG;$('#lbBuy').onclick=()=>copyMsg(orderText(it));thumbs();show(0);dlg.showModal()}
+  function openGallery(k){cur=null;photos=(data.custom_gallery||[]).map(g=>g.photo);const g=data.custom_gallery[k];
+    $('#lbCat').textContent='Special Orders';$('#lbName').textContent='Custom made';$('#lbPrice').textContent='Price on enquiry';$('#lbAvail').textContent='Made to order';$('#lbAvail').hidden=false;
+    $('#lbDesc').textContent=g.caption||'A past commission. We can make something like this for you, in your colours.';$('#lbDesc').hidden=false;
+    $('#lbBuy').textContent='Enquire about a custom order';$('#lbBuy').href=MSG;$('#lbBuy').onclick=()=>copyMsg("Hi! I'd love to ask about a custom order.");thumbs();show(k);dlg.showModal()}
+  $('#lbPrev').onclick=()=>show(idx-1);$('#lbNext').onclick=()=>show(idx+1);$('#lbClose').onclick=()=>dlg.close();
+  $('#lbThumbs').addEventListener('click',e=>{const b=e.target.closest('[data-t]');if(b)show(+b.dataset.t)});
+  dlg.addEventListener('click',e=>{if(e.target===dlg)dlg.close()});
+  dlg.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(idx-1);if(e.key==='ArrowRight')show(idx+1)});
+  let tx=null;$('.lb-stage').addEventListener('touchstart',e=>tx=e.touches[0].clientX,{passive:true});
+  $('.lb-stage').addEventListener('touchend',e=>{if(tx==null)return;const d=e.changedTouches[0].clientX-tx;if(Math.abs(d)>40)show(idx+(d<0?1:-1));tx=null});
+
+  render();
+  if(location.hash){const t=document.getElementById(location.hash.slice(1));if(t)t.scrollIntoView()}
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+media:
+  input: images/products
+  output: images/products
+content:
+  - name: catalogue
+    label: Catalogue
+    type: file
+    path: data/catalogue.json
+    format: json
+    fields:
+      - name: items
+        label: Products
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Name, type: string, required: true }
+          - name: category
+            label: Shelf
+            type: select
+            options:
+              values: [brooms-wands, home-decor, keychains, gothic-domes, bags, tote-bags, car-hangers, oddities, mythical-creatures, woodland-wonders, mystical-friends, mini-oddies, scare-gang, misfits, voodoo, spooky-friends, gothic-dolls, horror, potted-freaks, wearables, tooth-fairy, felt-creatures, mythical-decor, bongs, cheeky-gnomes]
+          - { name: price, label: Price, type: string, description: "e.g. $25 or $10 each or $80 set of 3" }
+          - { name: photos, label: Photos, type: image, list: true, description: "First photo is the cover. Add as many as you like." }
+          - { name: description, label: Description, type: text }
+          - { name: availability, label: Availability override, type: string, description: "Leave blank to use the shelf's (e.g. Made to order)" }
+          - { name: new, label: Show 'New' badge, type: boolean }
+          - { name: sold_out, label: Sold out, type: boolean }
+      - name: custom_gallery
+        label: Custom orders gallery
+        type: object
+        list: true
+        fields:
+          - { name: photo, label: Photo, type: image }
+          - { name: caption, label: Caption, type: string }
+      - name: categories
+        label: Shelves (categories)
+        type: object
+        list: true
+        fields:
+          - { name: id, label: ID (lowercase, no spaces), type: string }
+          - { name: name, label: Shelf name, type: string }
+          - { name: collection, label: Collection ID, type: string }
+          - { name: availability, label: Availability, type: string }
+      - name: collections
+        label: Collections
+        type: object
+        list: true
+        fields:
+          - { name: id, label: ID, type: string }
+          - { name: name, label: Name, type: string }
+          - { name: intro, label: Intro, type: text }
+      - name: settings
+        label: Settings
+        type: object
+        fields:
+          - { name: business, label: Business name, type: string }
+          - { name: tagline, label: Tagline, type: string }
+          - { name: messenger_link, label: Buy now link (Messenger), type: string }
+          - { name: facebook_link, label: Facebook page link, type: string }
+          - { name: note, label: Footer note, type: string }
