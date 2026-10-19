@@ -15,6 +15,6 @@ To add a whole new shelf, add it to `categories` (and to the shelf list in `.pag
 
 ## Buy now buttons
 They open the link in `settings.messenger_link` and copy an order message ("Hi! I'd like to order: …") for the customer to paste.
-For Messenger to open straight to a chat, change it to `https://m.me/<your-page-username>`.
+For Messenger to open straight to a chat, it is set to `https://m.me/61555698386503` (the page ID).
 
 Photos: aim for square-ish or portrait photos; cards crop to 4:5. Keep files under ~1MB (900–1200px wide is plenty).
