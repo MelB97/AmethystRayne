@@ -227,6 +227,18 @@
    "sold_out": false
   },
   {
+   "name": "Crochet Broomstick",
+   "category": "brooms-wands",
+   "price": "$80",
+   "photos": [
+    "images/products/brooms-wands-crochet-broomstick.jpg"
+   ],
+   "description": "A fully crocheted witch's broom with vines, roses and a black cat charm.",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
    "name": "Voldemort's Wand",
    "category": "brooms-wands",
    "price": "$20",
@@ -372,6 +384,19 @@
    "sold_out": false
   },
   {
+   "name": "Tea Towels",
+   "category": "home-decor",
+   "price": "$12 each",
+   "photos": [
+    "images/products/home-decor-tea-towels.jpg",
+    "images/products/home-decor-tea-towels-2.jpg"
+   ],
+   "description": "Hanging tea towels with a crochet top. Styles vary with seasonal stock.",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
    "name": "Cheeky Ghost",
    "category": "keychains",
    "price": "$8 each",
@@ -429,6 +454,33 @@
    "description": "Some glow in the dark, and come with accessories.",
    "availability": "",
    "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Spiked Heart Keychain",
+   "category": "keychains",
+   "price": "$8 each",
+   "photos": [
+    "images/products/keychains-spiked-heart.jpg",
+    "images/products/keychains-spiked-heart-2.jpg",
+    "images/products/keychains-spiked-heart-3.jpg",
+    "images/products/keychains-spiked-heart-4.jpg"
+   ],
+   "description": "With chains, spikes and charms.",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
+   "name": "Brain Keychain",
+   "category": "keychains",
+   "price": "$8 each",
+   "photos": [
+    "images/products/keychains-brain.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
    "sold_out": false
   },
   {
@@ -829,6 +881,35 @@
    "sold_out": false
   },
   {
+   "name": "Shrunken Heads",
+   "category": "oddities",
+   "price": "$15 each",
+   "photos": [
+    "images/products/oddities-shrunken-heads.jpg",
+    "images/products/oddities-shrunken-heads-2.jpg",
+    "images/products/oddities-shrunken-heads-3.jpg",
+    "images/products/oddities-shrunken-heads-4.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
+   "name": "Goat Heads (black horns)",
+   "category": "oddities",
+   "price": "$30 each",
+   "photos": [
+    "images/products/oddities-goat-heads-black-horns.jpg",
+    "images/products/oddities-goat-heads-black-horns-2.jpg",
+    "images/products/oddities-goat-heads-black-horns-3.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
    "name": "Fiji Mermaid",
    "category": "mythical-creatures",
    "price": "$30",
@@ -982,6 +1063,44 @@
    "description": "",
    "availability": "",
    "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Triple Goddess (Maiden, Mother & Crone)",
+   "category": "mythical-creatures",
+   "price": "$40 full set",
+   "photos": [
+    "images/products/mythical-creatures-triple-goddess.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
+   "name": "Dragons",
+   "category": "mythical-creatures",
+   "price": "$15 each",
+   "photos": [
+    "images/products/mythical-creatures-dragons.jpg",
+    "images/products/mythical-creatures-dragons-2.jpg",
+    "images/products/mythical-creatures-dragons-3.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
+   "name": "Gargoyle",
+   "category": "mythical-creatures",
+   "price": "$15 each",
+   "photos": [
+    "images/products/mythical-creatures-gargoyle.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
    "sold_out": false
   },
   {
@@ -1754,7 +1873,8 @@
    "category": "horror",
    "price": "$50",
    "photos": [
-    "images/products/horror-pennywise.jpg"
+    "images/products/horror-pennywise.jpg",
+    "images/products/horror-group.jpg"
    ],
    "description": "",
    "availability": "",
@@ -1766,7 +1886,8 @@
    "category": "horror",
    "price": "$50",
    "photos": [
-    "images/products/horror-michael-myers.jpg"
+    "images/products/horror-michael-myers.jpg",
+    "images/products/horror-group.jpg"
    ],
    "description": "",
    "availability": "",
@@ -1778,7 +1899,8 @@
    "category": "horror",
    "price": "$50",
    "photos": [
-    "images/products/horror-freddy-krueger.jpg"
+    "images/products/horror-freddy-krueger.jpg",
+    "images/products/horror-group.jpg"
    ],
    "description": "",
    "availability": "",
@@ -1790,7 +1912,8 @@
    "category": "horror",
    "price": "$50",
    "photos": [
-    "images/products/horror-jason-voorhees.jpg"
+    "images/products/horror-jason-voorhees.jpg",
+    "images/products/horror-group.jpg"
    ],
    "description": "",
    "availability": "",
@@ -1909,8 +2032,10 @@
    "name": "Mini Horrors",
    "category": "horror",
    "price": "$10",
-   "photos": [],
-   "description": "Coming soon.",
+   "photos": [
+    "images/products/horror-mini-horrors.jpg"
+   ],
+   "description": "Mini Freddy and Mini Michael shown.",
    "availability": "",
    "new": false,
    "sold_out": false
@@ -2198,7 +2323,8 @@
    "category": "mythical-decor",
    "price": "$50",
    "photos": [
-    "images/products/mythical-decor-zombie-boy-doll.jpg"
+    "images/products/mythical-decor-zombie-boy-doll.jpg",
+    "images/products/mythical-decor-zombie-boy-doll-2.jpg"
    ],
    "description": "",
    "availability": "",
@@ -2209,8 +2335,10 @@
    "name": "Zombie Girl Doll",
    "category": "mythical-decor",
    "price": "$50",
-   "photos": [],
-   "description": "Coming soon.",
+   "photos": [
+    "images/products/mythical-decor-zombie-girl-doll.jpg"
+   ],
+   "description": "",
    "availability": "",
    "new": false,
    "sold_out": false
@@ -2278,6 +2406,14 @@
   }
  ],
  "custom_gallery": [
+  {
+   "photo": "images/custom/clown-doll.jpg",
+   "caption": "Custom crocheted clown doll. Made to order."
+  },
+  {
+   "photo": "images/custom/pitcher-plant-skull.jpg",
+   "caption": "Crocheted pitcher plant in a skull planter. Ask us about your own."
+  },
   {
    "photo": "images/custom/bramm-axolotl.jpg",
    "caption": "Bramm, a crocheted axolotl. Made to order; ask us about your own."
