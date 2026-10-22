@@ -420,54 +420,6 @@
    "sold_out": false
   },
   {
-   "name": "Bat",
-   "category": "keychains",
-   "price": "$8 each",
-   "photos": [
-    "images/products/keychains-bat.jpg"
-   ],
-   "description": "",
-   "availability": "",
-   "new": false,
-   "sold_out": false
-  },
-  {
-   "name": "Frankenstein",
-   "category": "keychains",
-   "price": "$8 each",
-   "photos": [
-    "images/products/keychains-frankenstein.jpg"
-   ],
-   "description": "",
-   "availability": "",
-   "new": false,
-   "sold_out": false
-  },
-  {
-   "name": "Ghost",
-   "category": "keychains",
-   "price": "$8 each",
-   "photos": [
-    "images/products/keychains-ghost.jpg"
-   ],
-   "description": "",
-   "availability": "",
-   "new": false,
-   "sold_out": false
-  },
-  {
-   "name": "Kitty",
-   "category": "keychains",
-   "price": "$8 each",
-   "photos": [
-    "images/products/keychains-kitty.jpg"
-   ],
-   "description": "",
-   "availability": "",
-   "new": false,
-   "sold_out": false
-  },
-  {
    "name": "Ghosties",
    "category": "keychains",
    "price": "$8 each",
@@ -2194,6 +2146,16 @@
    "sold_out": false
   },
   {
+   "name": "Felt Voodoo Dolls",
+   "category": "felt-creatures",
+   "price": "$5 each",
+   "photos": [],
+   "description": "Hand-stitched felt voodoo dolls in assorted colours.",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
    "name": "Chucky (felt)",
    "category": "felt-creatures",
    "price": "$25",
@@ -2314,6 +2276,22 @@
   }
  ],
  "custom_gallery": [
+  {
+   "photo": "images/products/keychains-kitty.jpg",
+   "caption": "Knitted kitty keychain. Past piece; ask us about something similar."
+  },
+  {
+   "photo": "images/products/keychains-ghost.jpg",
+   "caption": "Knitted ghost keychain. Past piece; ask us about something similar."
+  },
+  {
+   "photo": "images/products/keychains-frankenstein.jpg",
+   "caption": "Knitted frankenstein keychain. Past piece; ask us about something similar."
+  },
+  {
+   "photo": "images/products/keychains-bat.jpg",
+   "caption": "Knitted bat keychain. Past piece; ask us about something similar."
+  },
   {
    "photo": "images/custom/custom-01.jpg",
    "caption": ""
