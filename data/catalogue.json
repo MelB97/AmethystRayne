@@ -231,9 +231,10 @@
    "category": "brooms-wands",
    "price": "$80",
    "photos": [
+    "images/products/brooms-wands-crochet-broomstick-v2.jpg",
     "images/products/brooms-wands-crochet-broomstick.jpg"
    ],
-   "description": "A fully crocheted witch's broom with vines, roses and a black cat charm.",
+   "description": "A fully crocheted witch's broom with vines, roses and a black cat moon. Tucked inside the moon is a secret pouch for a tarot card, crystal or written intention.",
    "availability": "",
    "new": true,
    "sold_out": false
@@ -352,7 +353,7 @@
    "category": "home-decor",
    "price": "$20 each",
    "photos": [
-    "images/products/home-decor-skeleton-doily.jpg"
+    "images/products/home-decor-skeleton-doily-v2.jpg"
    ],
    "description": "",
    "availability": "",
@@ -584,6 +585,7 @@
    "category": "bags",
    "price": "$25 each",
    "photos": [
+    "images/products/bags-mushroom-market-bag-v2.jpg",
     "images/products/bags-mushroom-market-bag.jpg"
    ],
    "description": "",
@@ -1034,7 +1036,8 @@
    "category": "mythical-creatures",
    "price": "$40",
    "photos": [
-    "images/products/mythical-creatures-dawn-the-peryton.jpg"
+    "images/products/mythical-creatures-dawn-the-peryton-v2.jpg",
+    "images/products/mythical-creatures-dawn-the-peryton-v3.jpg"
    ],
    "description": "",
    "availability": "",
@@ -1162,6 +1165,19 @@
    "description": "",
    "availability": "",
    "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Tree Man",
+   "category": "woodland-wonders",
+   "price": "$80",
+   "photos": [
+    "images/products/woodland-wonders-tree-man.jpg",
+    "images/products/woodland-wonders-tree-man-2.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
    "sold_out": false
   },
   {
@@ -1529,7 +1545,7 @@
    "category": "scare-gang",
    "price": "$10",
    "photos": [
-    "images/products/scare-gang-cthulhu.jpg"
+    "images/products/scare-gang-cthulhu-v2.jpg"
    ],
    "description": "One of the Great Old Ones: an octopus head of writhing feelers, clawed feet and long narrow wings. It's said to look upon it means certain death.",
    "availability": "",
@@ -1541,7 +1557,8 @@
    "category": "scare-gang",
    "price": "$10",
    "photos": [
-    "images/products/scare-gang-nessie.jpg"
+    "images/products/scare-gang-nessie-v2.jpg",
+    "images/products/scare-gang-nessie-v3.jpg"
    ],
    "description": "The Loch Ness Monster of Scottish folklore: long-necked, humped, and forever just out of frame.",
    "availability": "",
@@ -1553,7 +1570,7 @@
    "category": "scare-gang",
    "price": "$10",
    "photos": [
-    "images/products/scare-gang-3-headed-ghost.jpg"
+    "images/products/scare-gang-3-headed-ghost-v2.jpg"
    ],
    "description": "A spectral apparition with three faces, each with its own mood, inspired by Cerberus, the three-headed guardian of the underworld.",
    "availability": "",
@@ -1697,6 +1714,9 @@
    "category": "misfits",
    "price": "$10 each",
    "photos": [
+    "images/products/misfits-funky-monsters-v2.jpg",
+    "images/products/misfits-funky-monsters-v3.jpg",
+    "images/products/misfits-funky-monsters-v4.jpg",
     "images/products/misfits-funky-monsters.jpg",
     "images/products/misfits-funky-monsters-2.jpg",
     "images/products/misfits-funky-monsters-3.jpg",
@@ -1744,6 +1764,68 @@
    "description": "",
    "availability": "",
    "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Kaiju",
+   "category": "misfits",
+   "price": "$10",
+   "photos": [
+    "images/products/misfits-kaiju.jpg",
+    "images/products/misfits-kaiju-2.jpg",
+    "images/products/misfits-kaiju-3.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
+   "name": "One-Eyed Monster",
+   "category": "misfits",
+   "price": "$10",
+   "photos": [
+    "images/products/misfits-one-eyed-monster.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
+   "name": "Cat Monster",
+   "category": "misfits",
+   "price": "$10",
+   "photos": [
+    "images/products/misfits-cat-monster.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
+   "name": "Block Zombie",
+   "category": "misfits",
+   "price": "$10",
+   "photos": [
+    "images/products/misfits-block-zombie.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
+   "name": "Block Buddy",
+   "category": "misfits",
+   "price": "$10",
+   "photos": [
+    "images/products/misfits-block-buddy.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
    "sold_out": false
   },
   {
@@ -1824,7 +1906,7 @@
    "category": "spooky-friends",
    "price": "$5 each",
    "photos": [
-    "images/products/spooky-friends-cute-ghostie.jpg"
+    "images/products/spooky-friends-cute-ghostie-v2.jpg"
    ],
    "description": "",
    "availability": "",
@@ -1873,7 +1955,7 @@
    "category": "horror",
    "price": "$50",
    "photos": [
-    "images/products/horror-pennywise.jpg",
+    "images/products/horror-pennywise-v2.jpg",
     "images/products/horror-group.jpg"
    ],
    "description": "",
@@ -1912,7 +1994,8 @@
    "category": "horror",
    "price": "$50",
    "photos": [
-    "images/products/horror-jason-voorhees.jpg",
+    "images/products/horror-jason-voorhees-v2.jpg",
+    "images/products/horror-jason-voorhees-v3.jpg",
     "images/products/horror-group.jpg"
    ],
    "description": "",
@@ -1937,7 +2020,7 @@
    "category": "horror",
    "price": "$50",
    "photos": [
-    "images/products/horror-chucky.jpg"
+    "images/products/horror-chucky-v2.jpg"
    ],
    "description": "",
    "availability": "",
@@ -1949,6 +2032,8 @@
    "category": "horror",
    "price": "$25 large · $15 small",
    "photos": [
+    "images/products/horror-hannibal-lecter-v2.jpg",
+    "images/products/horror-hannibal-lecter-v3.jpg",
     "images/products/horror-hannibal-lecter.jpg"
    ],
    "description": "",
@@ -2021,7 +2106,8 @@
    "category": "horror",
    "price": "$30",
    "photos": [
-    "images/products/horror-beetlejuice.jpg"
+    "images/products/horror-beetlejuice-v2.jpg",
+    "images/products/horror-beetlejuice-v3.jpg"
    ],
    "description": "",
    "availability": "",
@@ -2038,6 +2124,80 @@
    "description": "Mini Freddy and Mini Michael shown.",
    "availability": "",
    "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Pinhead",
+   "category": "horror",
+   "price": "$50",
+   "photos": [
+    "images/products/horror-pinhead.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
+   "name": "Jigsaw (Billy the Puppet)",
+   "category": "horror",
+   "price": "$50",
+   "photos": [
+    "images/products/horror-jigsaw-billy-the-puppet.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
+   "name": "Art the Clown",
+   "category": "horror",
+   "price": "$50",
+   "photos": [
+    "images/products/horror-art-the-clown.jpg",
+    "images/products/horror-art-the-clown-2.jpg",
+    "images/products/horror-art-the-clown-3.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
+   "name": "Samara in the Well",
+   "category": "horror",
+   "price": "$55",
+   "photos": [
+    "images/products/horror-samara-in-the-well.jpg"
+   ],
+   "description": "Samara / Sadako climbing out of her stone well.",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
+   "name": "Samara in the TV",
+   "category": "horror",
+   "price": "$55",
+   "photos": [
+    "images/products/horror-samara-in-the-tv.jpg"
+   ],
+   "description": "Samara / Sadako crawling out of the television.",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
+   "name": "Chucky's Bride (Tiffany)",
+   "category": "horror",
+   "price": "$50",
+   "photos": [
+    "images/products/horror-chucky-s-bride-tiffany.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
    "sold_out": false
   },
   {
@@ -2107,7 +2267,7 @@
    "category": "wearables",
    "price": "$20",
    "photos": [
-    "images/products/wearables-cat-witchs-hat.jpg"
+    "images/products/wearables-cat-witchs-hat-v2.jpg"
    ],
    "description": "",
    "availability": "",
@@ -2136,6 +2296,19 @@
    "description": "",
    "availability": "",
    "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Scrunchies",
+   "category": "wearables",
+   "price": "$8 each",
+   "photos": [
+    "images/products/wearables-scrunchies.jpg",
+    "images/products/wearables-scrunchies-2.jpg"
+   ],
+   "description": "Made to order in your choice of colour.",
+   "availability": "",
+   "new": true,
    "sold_out": false
   },
   {
@@ -2348,6 +2521,7 @@
    "category": "bongs",
    "price": "$35",
    "photos": [
+    "images/products/bongs-small-bong-with-lashes-v2.jpg",
     "images/products/bongs-small-bong-with-lashes.jpg",
     "images/products/bongs-small-bong-with-lashes-2.jpg"
    ],
@@ -2385,7 +2559,7 @@
    "category": "cheeky-gnomes",
    "price": "$20",
    "photos": [
-    "images/products/cheeky-gnomes-go-away-gnome.jpg"
+    "images/products/cheeky-gnomes-go-away-gnome-v2.jpg"
    ],
    "description": "",
    "availability": "",
@@ -2397,7 +2571,8 @@
    "category": "cheeky-gnomes",
    "price": "$20",
    "photos": [
-    "images/products/cheeky-gnomes-f-off-gnome.jpg"
+    "images/products/cheeky-gnomes-f-off-gnome-v2.jpg",
+    "images/products/cheeky-gnomes-f-off-gnome-v3.jpg"
    ],
    "description": "",
    "availability": "",
@@ -2411,8 +2586,44 @@
    "caption": "Custom crocheted clown doll. Made to order."
   },
   {
+   "photo": "images/custom/bramm-axolotl-2.jpg",
+   "caption": "Bramm, a crocheted axolotl. Made to order; ask us about your own."
+  },
+  {
+   "photo": "images/custom/rhino.jpg",
+   "caption": "Custom crocheted rhino. Made to order."
+  },
+  {
+   "photo": "images/custom/duck.jpg",
+   "caption": "Custom crocheted duck. Made to order."
+  },
+  {
+   "photo": "images/custom/legs-ghost.jpg",
+   "caption": "Ghost with legs, as a plush, keychain or hanging decoration. Made to order."
+  },
+  {
+   "photo": "images/custom/legs-ghost-hanging.jpg",
+   "caption": "Hanging ghost with legs. Made to order."
+  },
+  {
+   "photo": "images/custom/legs-ghost-keychain.jpg",
+   "caption": "Ghost with legs keychain. Made to order."
+  },
+  {
+   "photo": "images/custom/book-cover.jpg",
+   "caption": "Fabric book cover in skull print, with a bookmark charm. Made to order to fit your book."
+  },
+  {
+   "photo": "images/custom/book-cover-2.jpg",
+   "caption": "Inside the skull-print book cover. Made to order."
+  },
+  {
    "photo": "images/custom/pitcher-plant-skull.jpg",
    "caption": "Crocheted pitcher plant in a skull planter. Ask us about your own."
+  },
+  {
+   "photo": "images/custom/pitcher-plant-skull-2.jpg",
+   "caption": "Crocheted pitcher plant in a hanging skull planter. Ask us about your own."
   },
   {
    "photo": "images/custom/bramm-axolotl.jpg",
