@@ -22,9 +22,9 @@ content:
           - { name: price, label: Price, type: string, description: "e.g. $25 or $10 each or $80 set of 3" }
           - { name: photos, label: Photos, type: image, list: true, description: "First photo is the cover. Add as many as you like." }
           - { name: description, label: Description, type: text }
-          - { name: availability, label: Availability override, type: string, description: "Leave blank to use the shelf's (e.g. Made to order)" }
+          - { name: availability, label: Availability override, type: string, description: "e.g. One of a kind. Leave blank to use the shelf's (e.g. Made to order)" }
           - { name: new, label: Show 'New' badge, type: boolean }
-          - { name: sold_out, label: Sold out, type: boolean }
+          - { name: sold_out, label: Sold, type: boolean, description: "For one-of-a-kind pieces. Shows Sold and an Ask for a similar piece button." }
       - name: custom_gallery
         label: Custom orders gallery
         type: object

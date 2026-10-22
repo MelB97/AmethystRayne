@@ -95,6 +95,8 @@ h1,h2,h3{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0;l
 .ph .flag.sold{background:#4a4150}
 .soon{display:grid;place-items:center;height:100%;font:italic 26px var(--italic);color:var(--muted);text-align:center;padding:12px;border:1.5px dashed var(--line);border-radius:10px;cursor:default}
 .card-body{display:flex;flex-direction:column;gap:4px;padding-top:12px;flex:1}
+.oneoff{align-self:flex-start;font:700 11px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;padding:.45em .6em;border-radius:4px;border:1px solid var(--gold);color:var(--gold)}
+.price s{opacity:.6}
 .card h4{margin:0;font:700 17px/1.25 var(--body)}
 .price{font:500 15px var(--body);color:var(--gold);font-variant-numeric:tabular-nums}
 .lore{font-size:14px;line-height:1.45;color:var(--muted);margin:2px 0 0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
@@ -221,7 +223,7 @@ dialog::backdrop{background:rgba(12,8,15,.78)}
   const items=data.items.map((it,i)=>({...it,i,cat:cats[it.category]||{name:'Other',collection:'',availability:''}}));
   let adultsOpen=false; try{adultsOpen=sessionStorage.getItem('ar18')==='1'}catch(e){}
 
-  const orderText=it=>`Hi! I'd like to order: ${it.name} (${it.price}) from the Amethyst Rayne catalogue.`;
+  const orderText=it=>it.sold_out?`Hi! I saw ${it.name} has sold. Could you make something similar for me?`:`Hi! I'd like to order: ${it.name} (${it.price}) from the Amethyst Rayne catalogue.`;
   const CUSTOM="Hi! I'd love to ask about a custom order.";
   const msgLink=t=>MSG+(MSG.includes('?')?'&':'?')+'text='+encodeURIComponent(t);
   document.querySelectorAll('.js-fb').forEach(a=>a.href=FB);
@@ -239,11 +241,11 @@ dialog::backdrop{background:rgba(12,8,15,.78)}
 
   function card(it){
     const p=it.photos||[];
-    const flag=it.sold_out?'<span class="flag sold">Sold out</span>':it.new?'<span class="flag">New</span>':'';
+    const flag=it.sold_out?'<span class="flag sold">Sold</span>':it.new?'<span class="flag">New</span>':'';
     const ph=p.length?`<button class="ph" data-open="${it.i}" aria-label="View photos of ${esc(it.name)}"><img src="${esc(p[0])}" alt="${esc(it.name)}" loading="lazy" decoding="async">${flag}${p.length>1?`<span class="count">${p.length} photos</span>`:''}</button>`
                     :`<div class="ph soon" aria-hidden="true">Photo<br>coming soon</div>`;
     const lore=it.cat.collection==='scare-gang'&&it.description?`<p class="lore">${esc(it.description)}</p>`:'';
-    return `<article class="card" data-search="${esc((it.name+' '+it.cat.name+' '+(it.description||'')).toLowerCase())}">${ph}<div class="card-body"><h4>${esc(it.name)}</h4><div class="price">${esc(it.price)}</div>${lore}<span class="spacer"></span><a class="btn btn-buy" href="${esc(msgLink(orderText(it)))}" target="_blank" rel="noopener" data-buy="${it.i}">Buy now</a></div></article>`;
+    return `<article class="card" data-search="${esc((it.name+' '+it.cat.name+' '+(it.description||'')).toLowerCase())}">${ph}<div class="card-body"><h4>${esc(it.name)}</h4><div class="price">${it.sold_out?'<s>'+esc(it.price)+'</s> Sold':esc(it.price)}</div>${it.availability?`<span class="oneoff">${esc(it.availability)}</span>`:''}${lore}<span class="spacer"></span><a class="btn ${it.sold_out?'btn-ghost':'btn-buy'}" href="${esc(msgLink(orderText(it)))}" target="_blank" rel="noopener" data-buy="${it.i}">${it.sold_out?'Ask for a similar piece':'Buy now'}</a></div></article>`;
   }
 
   function render(){
@@ -300,9 +302,9 @@ dialog::backdrop{background:rgba(12,8,15,.78)}
     $('#lbPrev').hidden=$('#lbNext').hidden=photos.length<2}
   function thumbs(){$('#lbThumbs').innerHTML=photos.length>1?photos.map((p,j)=>`<button data-t="${j}" aria-label="Photo ${j+1}"><img src="${esc(p)}" alt=""></button>`).join(''):''}
   function openItem(it){cur=it;photos=it.photos;$('#lbCat').textContent=it.cat.name;$('#lbName').textContent=it.name;$('#lbPrice').textContent=it.price;
-    $('#lbAvail').textContent=it.sold_out?'Sold out':(it.availability||it.cat.availability||'');$('#lbAvail').hidden=!$('#lbAvail').textContent;
+    $('#lbAvail').textContent=it.sold_out?'Sold'+(it.availability?' · '+it.availability:''):(it.availability||it.cat.availability||'');$('#lbAvail').hidden=!$('#lbAvail').textContent;
     $('#lbDesc').textContent=it.description||'';$('#lbDesc').hidden=!it.description;
-    $('#lbBuy').textContent='Buy now';$('#lbBuy').href=msgLink(orderText(it));$('#lbBuy').onclick=()=>copyMsg(orderText(it));thumbs();show(0);dlg.showModal()}
+    $('#lbBuy').textContent=it.sold_out?'Ask for a similar piece':'Buy now';$('#lbBuy').href=msgLink(orderText(it));$('#lbBuy').onclick=()=>copyMsg(orderText(it));thumbs();show(0);dlg.showModal()}
   function openGallery(k){cur=null;photos=(data.custom_gallery||[]).map(g=>g.photo);const g=data.custom_gallery[k];
     $('#lbCat').textContent='Special Orders';$('#lbName').textContent='Custom made';$('#lbPrice').textContent='Price on enquiry';$('#lbAvail').textContent='Made to order';$('#lbAvail').hidden=false;
     $('#lbDesc').textContent=g.caption||'A past commission. We can make something like this for you, in your colours.';$('#lbDesc').hidden=false;

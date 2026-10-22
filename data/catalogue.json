@@ -858,21 +858,21 @@
    "photos": [
     "images/products/oddities-de-kay.jpg"
    ],
-   "description": "",
-   "availability": "",
+   "description": "A one-of-a-kind piece.",
+   "availability": "One of a kind",
    "new": false,
-   "sold_out": false
+   "sold_out": true
   },
   {
    "name": "“Agatha”",
    "category": "oddities",
    "price": "$90",
    "photos": [
-    "images/products/oddities-agatha.jpg",
-    "images/products/oddities-agatha-2.jpg"
+    "images/products/oddities-agatha-2.jpg",
+    "images/products/oddities-agatha.jpg"
    ],
-   "description": "Before and after: a vintage doll given a haunting new life.",
-   "availability": "",
+   "description": "Before and after: a vintage doll given a haunting new life. A one-of-a-kind piece, only one available.",
+   "availability": "One of a kind",
    "new": false,
    "sold_out": false
   },
