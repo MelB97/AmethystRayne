@@ -2149,7 +2149,9 @@
    "name": "Felt Voodoo Dolls",
    "category": "felt-creatures",
    "price": "$5 each",
-   "photos": [],
+   "photos": [
+    "images/products/felt-creatures-felt-voodoo-dolls.jpg"
+   ],
    "description": "Hand-stitched felt voodoo dolls in assorted colours.",
    "availability": "",
    "new": true,
@@ -2276,6 +2278,10 @@
   }
  ],
  "custom_gallery": [
+  {
+   "photo": "images/custom/knitted-pumpkin-keychain.jpg",
+   "caption": "Knitted pumpkin keychain. Past piece; ask us about something similar."
+  },
   {
    "photo": "images/products/keychains-kitty.jpg",
    "caption": "Knitted kitty keychain. Past piece; ask us about something similar."
