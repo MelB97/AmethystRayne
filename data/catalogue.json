@@ -192,12 +192,6 @@
    "availability": "Made to order"
   },
   {
-   "id": "mythical-decor",
-   "name": "Mythical Décor",
-   "collection": "felt",
-   "availability": "Made to order"
-  },
-  {
    "id": "bongs",
    "name": "Bongs",
    "collection": "adults",
@@ -212,7 +206,7 @@
  ],
  "items": [
   {
-   "name": "Broomsticks",
+   "name": "Mini Broomstick",
    "category": "brooms-wands",
    "price": "$30 each",
    "photos": [
@@ -302,7 +296,7 @@
   {
    "name": "Ghost Coasters",
    "category": "home-decor",
-   "price": "4 for $10",
+   "price": "$3 each or 4 for $10",
    "photos": [
     "images/products/home-decor-ghost-coasters.jpg"
    ],
@@ -314,7 +308,7 @@
   {
    "name": "Blood Splatter Coasters",
    "category": "home-decor",
-   "price": "$3 each",
+   "price": "$3 each or 4 for $10",
    "photos": [
     "images/products/home-decor-blood-splatter-coasters.jpg"
    ],
@@ -378,6 +372,18 @@
    "price": "$15 each",
    "photos": [
     "images/products/home-decor-skull-doily.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Crystal Balls",
+   "category": "home-decor",
+   "price": "$5 each",
+   "photos": [
+    "images/products/mythical-decor-crystal-balls.jpg"
    ],
    "description": "",
    "availability": "",
@@ -761,18 +767,6 @@
    "sold_out": false
   },
   {
-   "name": "Deer Head with Rose",
-   "category": "oddities",
-   "price": "$30",
-   "photos": [
-    "images/products/oddities-deer-head-with-rose.jpg"
-   ],
-   "description": "",
-   "availability": "",
-   "new": false,
-   "sold_out": false
-  },
-  {
    "name": "Small Skeley",
    "category": "oddities",
    "price": "$10 each",
@@ -846,9 +840,9 @@
    "sold_out": false
   },
   {
-   "name": "Mr & Mrs Franke Head",
+   "name": "Mr & Mrs Frankie Heads",
    "category": "oddities",
-   "price": "$90 each",
+   "price": "$65 each or $100 for both",
    "photos": [
     "images/products/oddities-mr-mrs-franke-head.jpg"
    ],
@@ -904,9 +898,10 @@
    "photos": [
     "images/products/oddities-goat-heads-black-horns.jpg",
     "images/products/oddities-goat-heads-black-horns-2.jpg",
-    "images/products/oddities-goat-heads-black-horns-3.jpg"
+    "images/products/oddities-goat-heads-black-horns-3.jpg",
+    "images/products/oddities-deer-head-with-rose.jpg"
    ],
-   "description": "",
+   "description": "Also available as a deer head with a rose.",
    "availability": "",
    "new": true,
    "sold_out": false
@@ -929,18 +924,6 @@
    "price": "$30",
    "photos": [
     "images/products/mythical-creatures-anubis.jpg"
-   ],
-   "description": "",
-   "availability": "",
-   "new": false,
-   "sold_out": false
-  },
-  {
-   "name": "Hecate",
-   "category": "mythical-creatures",
-   "price": "$40 set of 3",
-   "photos": [
-    "images/products/mythical-creatures-hecate.jpg"
    ],
    "description": "",
    "availability": "",
@@ -974,7 +957,7 @@
   {
    "name": "Pegasus",
    "category": "mythical-creatures",
-   "price": "$30",
+   "price": "$40",
    "photos": [
     "images/products/mythical-creatures-pegasus.jpg"
    ],
@@ -1059,7 +1042,7 @@
   {
    "name": "Anise the Dryad",
    "category": "mythical-creatures",
-   "price": "$40",
+   "price": "$50",
    "photos": [
     "images/products/mythical-creatures-anise-the-dryad.jpg"
    ],
@@ -1081,32 +1064,6 @@
    "sold_out": false
   },
   {
-   "name": "Dragons",
-   "category": "mythical-creatures",
-   "price": "$15 each",
-   "photos": [
-    "images/products/mythical-creatures-dragons.jpg",
-    "images/products/mythical-creatures-dragons-2.jpg",
-    "images/products/mythical-creatures-dragons-3.jpg"
-   ],
-   "description": "",
-   "availability": "",
-   "new": true,
-   "sold_out": false
-  },
-  {
-   "name": "Gargoyle",
-   "category": "mythical-creatures",
-   "price": "$15 each",
-   "photos": [
-    "images/products/mythical-creatures-gargoyle.jpg"
-   ],
-   "description": "",
-   "availability": "",
-   "new": true,
-   "sold_out": false
-  },
-  {
    "name": "Mushroom House",
    "category": "woodland-wonders",
    "price": "$80",
@@ -1119,10 +1076,12 @@
    "sold_out": false
   },
   {
-   "name": "“Stumpy”",
+   "name": "“Stumpy” the Tree Man",
    "category": "woodland-wonders",
    "price": "$80",
    "photos": [
+    "images/products/woodland-wonders-tree-man.jpg",
+    "images/products/woodland-wonders-tree-man-2.jpg",
     "images/products/woodland-wonders-stumpy.jpg"
    ],
    "description": "",
@@ -1165,19 +1124,6 @@
    "description": "",
    "availability": "",
    "new": false,
-   "sold_out": false
-  },
-  {
-   "name": "Tree Man",
-   "category": "woodland-wonders",
-   "price": "$80",
-   "photos": [
-    "images/products/woodland-wonders-tree-man.jpg",
-    "images/products/woodland-wonders-tree-man-2.jpg"
-   ],
-   "description": "",
-   "availability": "",
-   "new": true,
    "sold_out": false
   },
   {
@@ -1688,8 +1634,11 @@
   {
    "name": "Dragons",
    "category": "scare-gang",
-   "price": "$10",
+   "price": "$15",
    "photos": [
+    "images/products/mythical-creatures-dragons.jpg",
+    "images/products/mythical-creatures-dragons-2.jpg",
+    "images/products/mythical-creatures-dragons-3.jpg",
     "images/products/scare-gang-dragons.jpg"
    ],
    "description": "Small dragons with big personalities. Hoarders of treasure (and yarn).",
@@ -1700,13 +1649,28 @@
   {
    "name": "Gargoyle",
    "category": "scare-gang",
-   "price": "$10",
+   "price": "$15",
    "photos": [
+    "images/products/mythical-creatures-gargoyle.jpg",
     "images/products/scare-gang-gargoyle.jpg"
    ],
    "description": "Stone-faced protectors that keep watch from the rooftops.",
    "availability": "",
    "new": false,
+   "sold_out": false
+  },
+  {
+   "name": "Kaiju",
+   "category": "scare-gang",
+   "price": "$15",
+   "photos": [
+    "images/products/misfits-kaiju.jpg",
+    "images/products/misfits-kaiju-2.jpg",
+    "images/products/misfits-kaiju-3.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
    "sold_out": false
   },
   {
@@ -1764,20 +1728,6 @@
    "description": "",
    "availability": "",
    "new": false,
-   "sold_out": false
-  },
-  {
-   "name": "Kaiju",
-   "category": "misfits",
-   "price": "$10",
-   "photos": [
-    "images/products/misfits-kaiju.jpg",
-    "images/products/misfits-kaiju-2.jpg",
-    "images/products/misfits-kaiju-3.jpg"
-   ],
-   "description": "",
-   "availability": "",
-   "new": true,
    "sold_out": false
   },
   {
@@ -1940,7 +1890,7 @@
   {
    "name": "Skull Choker",
    "category": "gothic-dolls",
-   "price": "$15 each",
+   "price": "$30 each",
    "photos": [
     "images/products/gothic-dolls-skull-choker.jpg",
     "images/products/gothic-dolls-skull-choker-2.jpg"
@@ -1966,12 +1916,14 @@
   {
    "name": "Michael Myers",
    "category": "horror",
-   "price": "$50",
+   "price": "$50 large · $15 small",
    "photos": [
     "images/products/horror-michael-myers.jpg",
-    "images/products/horror-group.jpg"
+    "images/products/horror-group.jpg",
+    "images/products/horror-mini-michael-myers.jpg",
+    "images/products/horror-mini-horrors.jpg"
    ],
-   "description": "",
+   "description": "Available in large and small.",
    "availability": "",
    "new": false,
    "sold_out": false
@@ -1979,12 +1931,14 @@
   {
    "name": "Freddy Krueger",
    "category": "horror",
-   "price": "$50",
+   "price": "$50 large · $15 small",
    "photos": [
     "images/products/horror-freddy-krueger.jpg",
-    "images/products/horror-group.jpg"
+    "images/products/horror-group.jpg",
+    "images/products/horror-mini-freddy-krueger.jpg",
+    "images/products/horror-mini-horrors.jpg"
    ],
-   "description": "",
+   "description": "Available in large and small.",
    "availability": "",
    "new": false,
    "sold_out": false
@@ -2028,9 +1982,21 @@
    "sold_out": false
   },
   {
+   "name": "Chucky's Bride (Tiffany)",
+   "category": "horror",
+   "price": "$50",
+   "photos": [
+    "images/products/horror-chucky-s-bride-tiffany.jpg"
+   ],
+   "description": "",
+   "availability": "",
+   "new": true,
+   "sold_out": false
+  },
+  {
    "name": "Hannibal Lecter",
    "category": "horror",
-   "price": "$25 large · $15 small",
+   "price": "$50 large · $15 small",
    "photos": [
     "images/products/horror-hannibal-lecter-v2.jpg",
     "images/products/horror-hannibal-lecter-v3.jpg",
@@ -2044,7 +2010,7 @@
   {
    "name": "Sam “Trick 'r Treat”",
    "category": "horror",
-   "price": "$45",
+   "price": "$65",
    "photos": [
     "images/products/horror-sam-trick-r-treat.jpg"
    ],
@@ -2056,7 +2022,7 @@
   {
    "name": "Ghost Face",
    "category": "horror",
-   "price": "$30",
+   "price": "$50",
    "photos": [
     "images/products/horror-ghost-face.jpg"
    ],
@@ -2068,33 +2034,9 @@
   {
    "name": "Ghost Face with Blood",
    "category": "horror",
-   "price": "$40",
+   "price": "$50",
    "photos": [
     "images/products/horror-ghost-face-with-blood.jpg"
-   ],
-   "description": "",
-   "availability": "",
-   "new": false,
-   "sold_out": false
-  },
-  {
-   "name": "Mini Freddy Krueger",
-   "category": "horror",
-   "price": "$10",
-   "photos": [
-    "images/products/horror-mini-freddy-krueger.jpg"
-   ],
-   "description": "",
-   "availability": "",
-   "new": false,
-   "sold_out": false
-  },
-  {
-   "name": "Mini Michael Myers",
-   "category": "horror",
-   "price": "$10",
-   "photos": [
-    "images/products/horror-mini-michael-myers.jpg"
    ],
    "description": "",
    "availability": "",
@@ -2110,18 +2052,6 @@
     "images/products/horror-beetlejuice-v3.jpg"
    ],
    "description": "",
-   "availability": "",
-   "new": false,
-   "sold_out": false
-  },
-  {
-   "name": "Mini Horrors",
-   "category": "horror",
-   "price": "$10",
-   "photos": [
-    "images/products/horror-mini-horrors.jpg"
-   ],
-   "description": "Mini Freddy and Mini Michael shown.",
    "availability": "",
    "new": false,
    "sold_out": false
@@ -2184,18 +2114,6 @@
     "images/products/horror-samara-in-the-tv.jpg"
    ],
    "description": "Samara / Sadako crawling out of the television.",
-   "availability": "",
-   "new": true,
-   "sold_out": false
-  },
-  {
-   "name": "Chucky's Bride (Tiffany)",
-   "category": "horror",
-   "price": "$50",
-   "photos": [
-    "images/products/horror-chucky-s-bride-tiffany.jpg"
-   ],
-   "description": "",
    "availability": "",
    "new": true,
    "sold_out": false
@@ -2362,7 +2280,7 @@
   {
    "name": "Apricot",
    "category": "felt-creatures",
-   "price": "$20",
+   "price": "$40",
    "photos": [
     "images/products/felt-creatures-apricot.jpg"
    ],
@@ -2374,7 +2292,7 @@
   {
    "name": "Celeste",
    "category": "felt-creatures",
-   "price": "$30",
+   "price": "$40",
    "photos": [
     "images/products/felt-creatures-celeste.jpg"
    ],
@@ -2410,7 +2328,7 @@
   {
    "name": "Alzombo",
    "category": "felt-creatures",
-   "price": "$30",
+   "price": "$50",
    "photos": [
     "images/products/felt-creatures-alzombo.jpg"
    ],
@@ -2468,21 +2386,9 @@
    "sold_out": false
   },
   {
-   "name": "Crystal Balls",
-   "category": "mythical-decor",
-   "price": "$5 each",
-   "photos": [
-    "images/products/mythical-decor-crystal-balls.jpg"
-   ],
-   "description": "",
-   "availability": "",
-   "new": false,
-   "sold_out": false
-  },
-  {
    "name": "Cleo Doll",
-   "category": "mythical-decor",
-   "price": "$30",
+   "category": "felt-creatures",
+   "price": "$50",
    "photos": [
     "images/products/mythical-decor-cleo-doll.jpg"
    ],
@@ -2493,7 +2399,7 @@
   },
   {
    "name": "Zombie Boy Doll",
-   "category": "mythical-decor",
+   "category": "felt-creatures",
    "price": "$50",
    "photos": [
     "images/products/mythical-decor-zombie-boy-doll.jpg",
@@ -2506,7 +2412,7 @@
   },
   {
    "name": "Zombie Girl Doll",
-   "category": "mythical-decor",
+   "category": "felt-creatures",
    "price": "$50",
    "photos": [
     "images/products/mythical-decor-zombie-girl-doll.jpg"

@@ -18,7 +18,7 @@ content:
             label: Shelf
             type: select
             options:
-              values: [brooms-wands, home-decor, keychains, gothic-domes, bags, tote-bags, car-hangers, oddities, mythical-creatures, woodland-wonders, mystical-friends, mini-oddies, scare-gang, misfits, voodoo, spooky-friends, gothic-dolls, horror, potted-freaks, wearables, tooth-fairy, felt-creatures, mythical-decor, bongs, cheeky-gnomes]
+              values: [brooms-wands, home-decor, keychains, gothic-domes, bags, tote-bags, car-hangers, oddities, mythical-creatures, woodland-wonders, mystical-friends, mini-oddies, scare-gang, misfits, voodoo, spooky-friends, gothic-dolls, horror, potted-freaks, wearables, tooth-fairy, felt-creatures, bongs, cheeky-gnomes]
           - { name: price, label: Price, type: string, description: "e.g. $25 or $10 each or $80 set of 3" }
           - { name: photos, label: Photos, type: image, list: true, description: "First photo is the cover. Add as many as you like." }
           - { name: description, label: Description, type: text }
